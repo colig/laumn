@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 2.4.0">
+  <meta name="generator" content="Hugo 0.47.1" />
+  <meta name="author" content="Bodong Chen">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="Getting started with CI 5371.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://colig.github.io/laumn/post/week1/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+
+  <link rel="stylesheet" href="/laumn/styles.css">
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-90346147-2', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+  <link rel="alternate" href="http://colig.github.io/laumn/index.xml" type="application/rss+xml" title="CI 5371">
+  <link rel="feed" href="http://colig.github.io/laumn/index.xml" type="application/rss+xml" title="CI 5371">
+  
+
+  <link rel="manifest" href="/laumn/site.webmanifest">
+  <link rel="icon" type="image/png" href="/laumn/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/laumn/img/icon-192.png">
+
+  <link rel="canonical" href="http://colig.github.io/laumn/post/week1/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@bod0ng">
+  <meta property="twitter:creator" content="@bod0ng">
+  
+  <meta property="og:site_name" content="CI 5371">
+  <meta property="og:url" content="http://colig.github.io/laumn/post/week1/">
+  <meta property="og:title" content="Week 1: Introduction | CI 5371">
+  <meta property="og:description" content="Getting started with CI 5371."><meta property="og:image" content="http://colig.github.io/laumn/img/https:/images.pexels.com/photos/185576/pexels-photo-185576.jpeg">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-08-29T00:00:00-05:00">
+  
+  <meta property="article:modified_time" content="2018-09-03T00:00:00-05:00">
+  
+
+  
+
+  
+
+  <title>Week 1: Introduction | CI 5371</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/laumn/">CI 5371</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/laumn/#about">
+            
+            <span>About</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/laumn/#posts">
+            
+            <span>Pages</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+            
+          
+        
+
+        <li class="nav-item">
+          <a href="https://la-mn.slack.com/" target="_blank" rel="noopener">
+            
+            <span>Slack</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/laumn/laumn/post/annotations/">
+            
+            <span>Annotations</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+<div class="article-header">
+  
+  
+    <img src="https://images.pexels.com/photos/185576/pexels-photo-185576.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" class="article-banner" itemprop="image">
+  
+
+  <span class="article-header-caption">Image credit: <a href="https://www.pexels.com/photo/analytics-text-185576/" target="_blank"><strong>Pexels</strong></a></span>
+</div>
+
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Week 1: Introduction</h1>
+
+    
+
+<div class="article-metadata">
+
+  
+  
+  
+  <div>
+    
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Bodong Chen</span>
+    </span>
+    
+  </div>
+  
+
+  <span class="article-date">
+    
+        Last updated on
+    
+    <meta content="2018-08-29 00:00:00 -0500 CDT" itemprop="datePublished">
+    <time datetime="2018-09-03 00:00:00 -0500 CDT" itemprop="dateModified">
+      Sep 3, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Bodong Chen">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Week%201%3a%20Introduction&amp;url=http%3a%2f%2fcolig.github.io%2flaumn%2fpost%2fweek1%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2fcolig.github.io%2flaumn%2fpost%2fweek1%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2fcolig.github.io%2flaumn%2fpost%2fweek1%2f&amp;title=Week%201%3a%20Introduction"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2fcolig.github.io%2flaumn%2fpost%2fweek1%2f&amp;title=Week%201%3a%20Introduction"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Week%201%3a%20Introduction&amp;body=http%3a%2f%2fcolig.github.io%2flaumn%2fpost%2fweek1%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p>A warm welcome to <strong>CI 5371 - Learning Analytics: Theory and Practice</strong>! This course has been taught twice by myself at the University of Minnesota (in 2015 and 2016). This is the first time this course is offered fully online as a formal (non-special topics) course. As the instructor, I look forward to our adventure together this semester!</p>
+
+<p>This week we will:</p>
+
+<ol>
+<li>Get familiar with the course, including its design, schedule, and tools</li>
+<li>Get to know each other</li>
+<li>Read an introductory article</li>
+<li>Discuss our diverse interests in learning analytics</li>
+</ol>
+
+<h2 id="the-course">The Course</h2>
+
+<h3 id="syllabus">Syllabus</h3>
+
+<p>First thing first, please read <a href="http://bit.ly/lamn-syl" target="_blank"><strong>the course syllabus</strong> (http://bit.ly/lamn-syl)</a> in its entirety. Leave a Hypothesis annotation or send me an email when you have any questions.</p>
+
+<h3 id="technology-setup">Technology setup</h3>
+
+<p>An online course does not need to be only about watching videos and answering quizzes. To foster rich learning experiences, we will be using several technological tools. Depending on your familiarity with these tools, there could be a learning curve. So please spend time this week to familiarize yourself with them.</p>
+
+<p><strong>Zoom</strong>. Please make sure your computer has <a href="https://zoom.us/" target="_blank">Zoom</a> installed. We will host virtual meetings on Zoom. Please test your Zoom setup in advance to make sure audio &amp; video configurations work properly. You will receive a calendar invitation with a link to our Zoom meeting room.</p>
+
+<p><strong>Slack</strong>. You will receive a link that invites you to join <a href="https://la-mn.slack.com/" target="_blank">our Slack community</a>. Course announcements are made on Slack. All sorts of class discussion will take place there as well. First time using Slack? Read this <a href="https://get.slack.help/hc/en-us/articles/115004071768-What-is-Slack-" target="_blank">brief introduction to Slack</a>.</p>
+
+<p><strong>Hypothes.is</strong>. You should have received a link that invites you to join <a href="https://hypothes.is/groups/NzWxr3DX/laumn" target="_blank">our Hypothes.is group</a>. Hypothes.is is a web annotation tool that enables us to discuss readings in a contextual manner. When annotating, please make sure our group name (<strong>LAUMN</strong>) is properly selected. See <a href="https://web.hypothes.is/help/annotating-with-groups/" target="_blank">this help page</a> for details.</p>
+
+<p><img src="https://d242fdlp0qlcia.cloudfront.net/uploads/2018/03/21135305/scopeselector-groupname.png" alt="" /></p>
+
+<h3 id="two-tracks-of-participation">Two tracks of participation</h3>
+
+<p>This course website is openly available, allowing two tracks of participation designed for this class.</p>
+
+<ol>
+<li><strong>UMN class</strong>: For UMN graduate students enrolled in the class, your participation in this class is not that different from taking another online class. You are expected to meet course requirements outlined in the course syllabus. You will have <em>private</em> spaces (on Slack and Hypothesis) for within-class communications.</li>
+<li><strong>Open participation</strong>: For &lsquo;Open Participants&rsquo; who with to follow along, you can access the same materials curated on this website. Because 90% of course readings are open-access, you will be able to annotate readings using Hypothes.is as well (using <a href="https://hypothes.is/search?q=tag%3ALAUMN" target="_blank">the <code>LAUMN</code> tag</a>). You are also encouraged to interact with me and community members via <a href="https://twitter.com/search?q=%23LAUMN&amp;src=typd" target="_blank">Twitter hashtag <code>#LAUMN</code></a>.</li>
+</ol>
+
+<p>If you have any feedback on the design, I&rsquo;d love to hear your thoughts.</p>
+
+<h2 id="readings-week-1">Readings (Week 1)</h2>
+
+<ol>
+<li>Course syllabus</li>
+<li><a href="http://journals.sagepub.com.ezp3.lib.umn.edu/doi/pdf/10.1177/0002764213498851" target="_blank">Siemens, G. (2013). Learning analytics: The emergence of a discipline. The American Behavioral Scientist, 57(10), 1380–1400.</a></li>
+</ol>
+
+<p>When reading Siemens (2013), <strong>please create at least 1 annotation and reply to 2 annotations made by peers</strong>. Your annotations could begin with words like: <code>&quot;I'm intrigued by...&quot;</code>, <code>&quot;I'm surprised by...&quot;</code>, <code>&quot;I need to understand...&quot;</code>, <code>&quot;Additional source...&quot;</code>, etc.</p>
+
+<p><strong>Tip</strong>: Click on the Annotations link to the top of the page to check annotations posted to our Hypothes.is group.</p>
+
+<h2 id="virtual-meeting-week-1">Virtual Meeting (Week 1)</h2>
+
+<p>Our first virtual meeting will take place on <strong>Monday, 09/10, 5-6:30pm</strong> via Zoom. You will receive a Calendar invitation with details.</p>
+
+<p>See you soon!</p>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="label label-default" href="http://colig.github.io/laumn/tags/introduction/">Introduction</a>
+  
+</div>
+
+
+
+
+    
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+
+    
+
+    <p class="powered-by">
+
+      Licensed under a Creative Commons Attribution 4.0 International License (CC BY) &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    <script src="/laumn/js/hugo-academic.js"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/laumn/search.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    <script src="/laumn/js/search.js"></script>
+    
+
+    
+    
+
+  </body>
+</html>
+

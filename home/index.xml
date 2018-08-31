@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on CI 5371</title>
+    <link>http://colig.github.io/laumn/home/</link>
+    <description>Recent content in Homes on CI 5371</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Licensed under a Creative Commons Attribution 4.0 International License (CC BY)</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="http://colig.github.io/laumn/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://colig.github.io/laumn/home/hero_carousel/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://colig.github.io/laumn/home/hero_carousel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Analytics: Theory and Practice</title>
+      <link>http://colig.github.io/laumn/home/hero/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 -0500</pubDate>
+      
+      <guid>http://colig.github.io/laumn/home/hero/</guid>
+      <description>This course provides a general survey of learning analytics, emphasizing its application in various educational contexts 🚀</description>
+    </item>
+    
+    <item>
+      <title>General Information</title>
+      <link>http://colig.github.io/laumn/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>http://colig.github.io/laumn/home/about/</guid>
+      <description> This is the course website of CI 5371 - Learning Analytics: Theory and Practice offered in Fall &amp;lsquo;18 at the University of Minnesota. This course fully online. All content published on this website open to the public.
+Instructor: Bodong Chen, Assistant Professor in learning technologies
+Important Links  Syllabus (public) Slack community (invitation only) Hypothes.is group (invitation only) Hypothes.is public annotations - tag:LAUMN (public) Twitter hashtag #LAUMN (public)  </description>
+    </item>
+    
+    <item>
+      <title>Weekly Pages</title>
+      <link>http://colig.github.io/laumn/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>http://colig.github.io/laumn/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>http://colig.github.io/laumn/home/search/</link>
+      <pubDate>Mon, 23 Jul 2018 00:00:00 -0500</pubDate>
+      
+      <guid>http://colig.github.io/laumn/home/search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>http://colig.github.io/laumn/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://colig.github.io/laumn/home/tags/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on CI 5371</title>
+    <link>http://colig.github.io/laumn/post/</link>
+    <description>Recent content in Pages on CI 5371</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Licensed under a Creative Commons Attribution 4.0 International License (CC BY)</copyright>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="http://colig.github.io/laumn/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Week 1: Introduction</title>
+      <link>http://colig.github.io/laumn/post/week1/</link>
+      <pubDate>Wed, 29 Aug 2018 00:00:00 -0500</pubDate>
+      
+      <guid>http://colig.github.io/laumn/post/week1/</guid>
+      <description>A warm welcome to CI 5371 - Learning Analytics: Theory and Practice! This course has been taught twice by myself at the University of Minnesota (in 2015 and 2016). This is the first time this course is offered fully online as a formal (non-special topics) course. As the instructor, I look forward to our adventure together this semester!
+This week we will:
+ Get familiar with the course, including its design, schedule, and tools Get to know each other Read an introductory article Discuss our diverse interests in learning analytics  The Course Syllabus First thing first, please read the course syllabus (http://bit.</description>
+    </item>
+    
+    <item>
+      <title>Web Annotations</title>
+      <link>http://colig.github.io/laumn/post/annotations/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 -0500</pubDate>
+      
+      <guid>http://colig.github.io/laumn/post/annotations/</guid>
+      <description> </description>
+    </item>
+    
+  </channel>
+</rss>
