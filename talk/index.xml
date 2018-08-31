@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on CI 5371</title>
-    <link>http://colig.github.io/laumn/talk/</link>
+    <link>https://colig.github.io/laumn/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on CI 5371</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a Creative Commons Attribution 4.0 International License (CC BY)</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0600</lastBuildDate>
     
-	<atom:link href="http://colig.github.io/laumn/talk/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://colig.github.io/laumn/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

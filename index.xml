@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CI 5371 on CI 5371</title>
-    <link>http://colig.github.io/laumn/</link>
+    <link>https://colig.github.io/laumn/</link>
     <description>Recent content in CI 5371 on CI 5371</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Week 1: Introduction</title>
-      <link>http://colig.github.io/laumn/post/week1/</link>
+      <link>https://colig.github.io/laumn/post/week1/</link>
       <pubDate>Wed, 29 Aug 2018 00:00:00 -0500</pubDate>
       
-      <guid>http://colig.github.io/laumn/post/week1/</guid>
+      <guid>https://colig.github.io/laumn/post/week1/</guid>
       <description>
 
 &lt;p&gt;A warm welcome to &lt;strong&gt;CI 5371 - Learning Analytics: Theory and Practice&lt;/strong&gt;! This course has been taught twice by myself at the University of Minnesota (in 2015 and 2016). This is the first time this course is offered fully online as a formal (non-special topics) course. As the instructor, I look forward to our adventure together this semester!&lt;/p&gt;
@@ -79,10 +79,10 @@
     
     <item>
       <title>Web Annotations</title>
-      <link>http://colig.github.io/laumn/post/annotations/</link>
+      <link>https://colig.github.io/laumn/post/annotations/</link>
       <pubDate>Wed, 01 Aug 2018 00:00:00 -0500</pubDate>
       
-      <guid>http://colig.github.io/laumn/post/annotations/</guid>
+      <guid>https://colig.github.io/laumn/post/annotations/</guid>
       <description>&lt;iframe src=&#34;https://hypothes.is/groups/NzWxr3DX/lamn&#34; width = &#34;100%&#34; height = &#34;800px&#34;&gt;&lt;/iframe&gt;
 </description>
     </item>
