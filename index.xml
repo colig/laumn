@@ -11,6 +11,16 @@
     <atom:link href="/laumn/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Glossary</title>
+      <link>https://colig.github.io/laumn/post/glossary/</link>
+      <pubDate>Thu, 06 Sep 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://colig.github.io/laumn/post/glossary/</guid>
+      <description>&lt;iframe name=&#34;embed_readwrite&#34; src=&#34;https://etherpad.net/p/LAUMN-Glossary?showControls=true&amp;showChat=true&amp;showLineNumbers=true&amp;useMonospaceFont=false&#34; width = &#34;100%&#34; height = &#34;800px&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 1: Introduction</title>
       <link>https://colig.github.io/laumn/post/week1/</link>
       <pubDate>Wed, 29 Aug 2018 00:00:00 -0500</pubDate>
