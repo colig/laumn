@@ -11,6 +11,94 @@
     <atom:link href="/laumn/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Week 2: Learning Analytics: A Brief Overview</title>
+      <link>https://colig.github.io/laumn/post/week2/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://colig.github.io/laumn/post/week2/</guid>
+      <description>
+
+&lt;p&gt;Thanks for the engaged conversations in the first week of #LAUMN!&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;ve been engaged in such thoughtful dialogues via Hypothes.is annotations. We&amp;rsquo;re trying to survive all those acronyms by maintaining &lt;a href=&#34;https://colig.github.io/laumn/post/glossary/&#34; target=&#34;_blank&#34;&gt;a community glossary&lt;/a&gt;. Also a big shout-out to &lt;strong&gt;Crystal Rose-Wainstock&lt;/strong&gt; for her #LAUMN tweet about ethics in learning analytics (below). The breadth of expertise represented in our community is truly energizing. I hope we can continue to have deep conversations &lt;em&gt;within and beyond this community&lt;/em&gt;, and to engage in learning that&amp;rsquo;s &lt;em&gt;personal&lt;/em&gt; to everyone of us.&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Thinking about learning analytics and the ethics of big data use in education. &lt;a href=&#34;https://twitter.com/hashtag/laumn?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#laumn&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/ci5371?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#ci5371&lt;/a&gt; &lt;a href=&#34;https://t.co/8wQgpH0OF5&#34;&gt;pic.twitter.com/8wQgpH0OF5&lt;/a&gt;&lt;/p&gt;&amp;mdash; Crystal Rose-Wainstock (@crosewainstock) &lt;a href=&#34;https://twitter.com/crosewainstock/status/1037466767688458240?ref_src=twsrc%5Etfw&#34;&gt;September 5, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;In the spirit of &amp;ldquo;living and exploring the capacity of learning analytics,&amp;rdquo; I want to introduce an analytics tool named &lt;a href=&#34;http://marginalsyllab.us/crowdlaaers-marginalsyllabus/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;CROWDLAAERS&lt;/strong&gt;&lt;/a&gt; developed by my UC-Denver colleagues &lt;strong&gt;Remi Kalir&lt;/strong&gt; and &lt;strong&gt;Francisco Perez&lt;/strong&gt; for the Marginal Syllabus project. This application, which just came out during the summer, retrieves annotations from the server and generates interesting interactive visualizations.&lt;/p&gt;
+
+&lt;p&gt;For instance, below is an overview of our own #LAUMN annotation threads. I found it quite useful for discovering threads with more (or less) participation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/crowdlaaers-1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Another example is the calendar view that tells us when we tend to make annotations.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/crowdlaaers-2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It appears we were quite busy making annotations during the weekend. I believe we can do better next week &amp;ndash; working less during the weekend if possible ;-)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/13HBDT4QSTpveU/giphy.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;week-2&#34;&gt;Week 2&lt;/h2&gt;
+
+&lt;p&gt;This week we will:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Develop a stronger grasp of the field of LA&lt;/li&gt;
+&lt;li&gt;Start to explore Working Group project ideas&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;video&#34;&gt;Video&lt;/h3&gt;
+
+&lt;p&gt;After reading and discussing the &lt;a href=&#34;https://en.wikipedia.org/wiki/George_Siemens&#34; target=&#34;_blank&#34;&gt;George Siemens&lt;/a&gt; (2013) article during Week 1, it&amp;rsquo;s worthwhile to watch a lecture George gave to a MOOC (massive open online course) on learning analytics. George is the founding president of the &lt;a href=&#34;https://solaresearch.org/&#34; target=&#34;_blank&#34;&gt;Society for Learning Analytics Research (SoLAR)&lt;/a&gt;, which is the most prominent international organization of learning analytics.&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/KqETXdq68vY?rel=0&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&#34;readings&#34;&gt;Readings&lt;/h3&gt;
+
+&lt;p&gt;This week, we will get a chance to take a closer look at this field by exploring more cases/examples and posing more questions. What problems do learning analytics seek to address? In which educational settings? At which levels of an education system? Because this field is truly inter- and trans-disciplinary, I expect us to enter this field from our unique backgrounds and contribute to the field with different perspectives.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Buckingham Shum, S. (2012). &lt;a href=&#34;https://iite.unesco.org/pics/publications/en/files/3214711.pdf&#34; target=&#34;_blank&#34;&gt;UNESCO Policy Brief: Learning Analytics&lt;/a&gt;. UNESCO Institute for Information Technologies in Education.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Choose one from below&lt;/strong&gt; (&lt;em&gt;Note: #1 is open-access, and #2 is accessible to UMN colleagues&lt;/em&gt;):
+
+&lt;ol&gt;
+&lt;li&gt;Bienkowski, M., Feng, M., &amp;amp; Means, B. (2012). &lt;a href=&#34;https://tech.ed.gov/wp-content/uploads/2014/03/edm-la-brief.pdf&#34; target=&#34;_blank&#34;&gt;Enhancing Teaching and Learning Through Educational Data Mining and Learning Analytics: An issue brief&lt;/a&gt; &lt;strong&gt;(pp. 1-35)&lt;/strong&gt;. U.S. Department of Education Office of Educational Technology.&lt;/li&gt;
+&lt;li&gt;Krumm, A., Means, B., &amp;amp; Bienkowski, M. (2018). Learning Analytics Goes to School: A Collaborative Approach to Improving Education, &lt;strong&gt;&lt;a href=&#34;https://drive.google.com/open?id=1LB5J1UytIV2yOq47xKFrnneTJ7YCMJQV&#34; target=&#34;_blank&#34;&gt;Chapter 2&lt;/a&gt;&lt;/strong&gt;. Routledge.  (&lt;em&gt;Note: This reading can only be annotated offline. Check &lt;a href=&#34;https://www.youtube.com/watch?v=YZW6L-0qkwI&#34; target=&#34;_blank&#34;&gt;this Youtube video&lt;/a&gt; to learn how.&lt;/em&gt;)&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When reading each article, &lt;strong&gt;please create at least 1 annotation and reply to 2 annotations made by peers&lt;/strong&gt;. Let the community know when you find a case that matches perfectly with your interests, stretches your imagination of learning anlaytics, or concerns you for whatever reasons.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Reminder&lt;/strong&gt;: If you are a UMN participant, when annotating with Hypothes.is, please make sure the LAUMN group is selected.&lt;/p&gt;
+
+&lt;h3 id=&#34;exploring-working-group-project-ideas&#34;&gt;Exploring Working Group project ideas&lt;/h3&gt;
+
+&lt;p&gt;While/after reading, draft a project idea based on your interests and post it on Slack. This is an opportunity for us to learn more about our interests and form project teams. So please comment on each other&amp;rsquo;s posts if you&amp;rsquo;re also interested or have questions/suggestions.&lt;/p&gt;
+
+&lt;p&gt;For open participants, please tweet a blog post (or a shared Google doc) using the #LAUMN hashtag.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://thumbs.gfycat.com/MistyWeirdHyrax-size_restricted.gif&#34; alt=&#34;Source: https://gfycat.com/gifs/detail/mistyweirdhyrax&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Below are a list of example project ideas.&lt;/strong&gt; Please see the syllabus for more detailed guidelines.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Applying Natural Language Processing to Investigating Language Development and Epistemic Complexity in Group Chats&lt;/li&gt;
+&lt;li&gt;Integrating a Teacher Dashboard in K-12: A Mixed-Methods Study of Teacher Perspectives&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Burn the World&amp;rdquo; Learning Analytics Design (&lt;em&gt;Note: Burn the World is a game for environmental education.&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;The Bridge&amp;rdquo;: An Analytics Tool to Integrate Community Knowledge on StackOverflow in RStudio&lt;/li&gt;
+&lt;li&gt;Developing a Deep Learning Model for the Prediction of Student Success in Introductory Physics&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;virtual-meeting&#34;&gt;Virtual Meeting&lt;/h3&gt;
+
+&lt;p&gt;Our second virtual meeting will take place on &lt;strong&gt;Monday, 09/17, 5-6:30pm&lt;/strong&gt; via Zoom. You will receive a Calendar invitation with details.&lt;/p&gt;
+
+&lt;p&gt;See you soon!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Glossary</title>
       <link>https://colig.github.io/laumn/post/glossary/</link>
       <pubDate>Thu, 06 Sep 2018 00:00:00 -0500</pubDate>
