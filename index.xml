@@ -11,6 +11,63 @@
     <atom:link href="/laumn/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Week 3: Ethics, Algorithmic Accountability, and System Integrity</title>
+      <link>https://colig.github.io/laumn/post/week3/</link>
+      <pubDate>Sun, 16 Sep 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://colig.github.io/laumn/post/week3/</guid>
+      <description>
+
+&lt;p&gt;Let&amp;rsquo;s be clear, &lt;em&gt;ethics&lt;/em&gt; should not be an after-thought in a learning analytics application. But what do ethical practices in the field entail is not always clear.&lt;/p&gt;
+
+&lt;p&gt;While research ethics considers principles such as confidentiality, privacy, and informed consent, a learning analytics project may not be considered &lt;em&gt;research&lt;/em&gt; at all (if its goal is not to produce generalizable knowledge). However, expansive collection of learning data, increasing cases of &amp;ldquo;black-box algorithms,&amp;rdquo; and the direct impact on learners necessitate some serious conversations about ethics in learning analytics.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/7/7c/Blackbox3D-withGraphs.png&#34; alt=&#34;(Photo Credit: [Wikipedia](https://en.wikipedia.org/wiki/Black_box))&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Last week&amp;rsquo;s discussions have already touched upon questions about ethics. This week, we are going to dive into ethics, algorithmic accountability, and system integrity.&lt;/p&gt;
+
+&lt;h2 id=&#34;week-3-readings&#34;&gt;Week 3 Readings&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Prinsloo, P., &amp;amp; Slade, S. (2017). Ethics and Learning Analytics: Charting the (Un)Charted. In C. Lang, G. Siemens, A. Wise, &amp;amp; D. Gasevic (Eds.), Handbook of Learning Analytics (&lt;a href=&#34;https://solaresearch.org/wp-content/uploads/2017/05/chapter4.pdf&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Chapter 4, pp. 49–57&lt;/strong&gt;&lt;/a&gt;). Society for Learning Analytics Research (SoLAR).  (Note: It may be difficult to highlight larger text snippets in this particular PDF file.)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Optional&lt;/strong&gt;: Geiger, R. S. (2017). &lt;a href=&#34;http://journals.sagepub.com/doi/pdf/10.1177/2053951717730735&#34; target=&#34;_blank&#34;&gt;Beyond opening up the black box: Investigating the role of algorithmic systems in Wikipedian organizational culture&lt;/a&gt;. Big Data &amp;amp; Society, 4(2), 2053951717730735.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When reading each article, &lt;strong&gt;please create at least 1 annotation and reply to 2 annotations made by peers&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;meet-learning-analytics-experts&#34;&gt;Meet Learning Analytics Experts&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://opendistanceteachingandlearning.wordpress.com/about/&#34; target=&#34;_blank&#34;&gt;Paul Prinsloo&lt;/a&gt;&lt;/strong&gt; from the University of South Africa (Unisa) has been writing and giving talks about &amp;lsquo;ethics and learning analytics&amp;rsquo; for many years. He has recently delivered a keynote on this topic in Scotland. He has graciously allowed me to embed his slides on our course website:&lt;/p&gt;
+
+&lt;p&gt;&lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;a href=&#34;//www.slideshare.net/prinsp/zombie-categories-broken-data-and-biased-algorithms-what-else-can-go-wrong-ethics-in-the-collection-analysis-and-use-of-student-data-111886874&#34; title=&#34;Zombie categories, broken data and biased algorithms: What else can go wrong? Ethics in the collection, analysis and use of student data&#34; target=&#34;_blank&#34;&gt;Zombie categories, broken data and biased algorithms: What else can go wrong? Ethics in the collection, analysis and use of student data&lt;/a&gt; &lt;/div&gt;
+&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/lJfMuY2tUK6WVI&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://simon.buckinghamshum.net/&#34; target=&#34;_blank&#34;&gt;Simon Buckingham Shum&lt;/a&gt;&lt;/strong&gt;, Director of the Connected Intelligence Centre (CIC) at the University of Technology Sydney, invited us to consider &amp;lsquo;Algorithmic Accountability&amp;rsquo; and &amp;lsquo;Analytic System Integrity&amp;rsquo;. Discussion of Algorithmic Accountability has been &lt;a href=&#34;https://www.acm.org/binaries/content/assets/public-policy/2017_usacm_statement_algorithms.pdf&#34; target=&#34;_blank&#34;&gt;taken up by important academic associations like the Association for Computing Machinery (ACM)&lt;/a&gt;. But Simon stretches our thinking to consider &amp;lsquo;Analytic System Integrity&amp;rsquo; in learning analytics. Below is a talk he gave at the UCL Institute of Education in 2016. His team is recently working on &lt;a href=&#34;http://simon.buckinghamshum.net/2018/08/ethical-design-critique/&#34; target=&#34;_blank&#34;&gt;Ethical Design Critique&lt;/a&gt; that offers concrete measures to enhance ethics in learning analytics tools.&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/0t0IWvcO-Uo?rel=0&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&#34;housekeeping&#34;&gt;Housekeeping&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Please continue to explore and articulate your Working Group project ideas.&lt;/strong&gt; Please consider &lt;em&gt;problems/goals&lt;/em&gt;, &lt;em&gt;stakeholders&lt;/em&gt;, &lt;em&gt;data sources&lt;/em&gt;, &lt;em&gt;analysis&lt;/em&gt;, and &lt;em&gt;action&lt;/em&gt; of your project. Continue to ask each other questions on Slack.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Please start to consider which Special Interest Group(s) you&amp;rsquo;re interested in.&lt;/strong&gt; Below is a list of tentative topics but you can make suggestions. Ideally, the Special Interest Group you sign up for is related to your Working Group project.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Social Network Analysis&lt;/li&gt;
+&lt;li&gt;Predictive Models&lt;/li&gt;
+&lt;li&gt;Text and Discourse Analytics&lt;/li&gt;
+&lt;li&gt;Visual Learning Analytics&lt;/li&gt;
+&lt;li&gt;Temporal Analytics&lt;/li&gt;
+&lt;li&gt;Institutional Readiness&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Finally, whenever there is any interesting article, please either annotate or share via Slack.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.basised.com/scottsdale/files/2018/02/adios-gif-tumblr-10.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 2: Learning Analytics: A Brief Overview</title>
       <link>https://colig.github.io/laumn/post/week2/</link>
       <pubDate>Mon, 10 Sep 2018 00:00:00 -0500</pubDate>

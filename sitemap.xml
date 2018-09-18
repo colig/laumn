@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>https://colig.github.io/laumn/post/week3/</loc>
+      <lastmod>2018-09-16T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://colig.github.io/laumn/post/week2/</loc>
       <lastmod>2018-09-11T00:00:00-05:00</lastmod>
     </url>
@@ -60,6 +68,15 @@
     
     <url>
     
+      <loc>https://colig.github.io/laumn/tags/algorithmic-accountability/</loc>
+      <lastmod>2018-09-16T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://colig.github.io/laumn/</loc>
       <lastmod>2017-10-15T00:00:00-05:00</lastmod>
       <priority>0</priority>
@@ -70,6 +87,15 @@
     <url>
     
       <loc>https://colig.github.io/laumn/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://colig.github.io/laumn/tags/ethics/</loc>
+      <lastmod>2018-09-16T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -122,7 +148,7 @@
     <url>
     
       <loc>https://colig.github.io/laumn/tags/</loc>
-      <lastmod>2018-09-06T00:00:00-05:00</lastmod>
+      <lastmod>2018-09-16T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
