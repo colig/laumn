@@ -11,6 +11,71 @@
     <atom:link href="/laumn/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Week 4: Theory and Learning Analytics</title>
+      <link>https://colig.github.io/laumn/post/week4/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://colig.github.io/laumn/post/week4/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://link.springer.com/article/10.1007%2Fs11528-014-0822-x&#34; target=&#34;_blank&#34;&gt;Learning analytics are about learning&lt;/a&gt;, so &lt;em&gt;theories of learning&lt;/em&gt; should not be ditched despite the data deluge that has been fueling the growth of learning analytics. Since the dawn of the field, there have been voices arguing for the importance of learning theory in the design, development, and implementation of learning analytics. In 2015, &lt;a href=&#34;https://learning-analytics.info/journals/index.php/JLA/issue/view/358&#34; target=&#34;_blank&#34;&gt;a special section&lt;/a&gt; was published by the Journal of Learning Analytics on the relation between learning theory and learning analytics. In the guest editorial, Wise and Shaffer (2015, p. 5) write:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;It is an exhilarating and important time for conducting research on learning, with unprecedented quantities of data available. There is danger, however, in thinking that with enough data, the numbers speak for themselves. In fact, with larger amounts of data, theory plays an ever-more critical role in analysis.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- ![](https://raw.githubusercontent.com/meefen/la-spring16/gh-pages/slides/imgs/theory_def.png) --&gt;
+
+&lt;p&gt;The notion that theory matters even more in &amp;ldquo;big data&amp;rdquo; research in education goes against what was proposed in a controversial Wired article titled &amp;ldquo;&lt;a href=&#34;https://www.wired.com/2008/06/pb-theory/&#34; target=&#34;_blank&#34;&gt;The end of theory: The data deluge makes the scientific method obsolete&lt;/a&gt;&amp;rdquo; (Anderson, 2008).  Now there is little disagreement that learning theory is essential for learning analytics.&lt;/p&gt;
+
+&lt;p&gt;Briefly speaking, there are essentially two ways theory is important for the field of learning analytics.&lt;/p&gt;
+
+&lt;h3 id=&#34;1-theory-use-in-learning-analytics&#34;&gt;&lt;strong&gt;1. Theory Use in Learning Analytics&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;As a field of research and practice, it is naturally learning analytics work draws from all sorts of theories. As summarized by Wise and Shaffer (2015, p. 9):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Theory gives a researcher guidance about which variables to include in a model&lt;/li&gt;
+&lt;li&gt;Theory gives a researcher guidance about what potential confounds, subgroups, or covariates in  the data to account for&lt;/li&gt;
+&lt;li&gt;Theory gives a researcher guidance as to which results to attend to&lt;/li&gt;
+&lt;li&gt;Theory gives a researcher a framework for interpreting results&lt;/li&gt;
+&lt;li&gt;Theory gives a researcher guidance about how to make results actionable&lt;/li&gt;
+&lt;li&gt;Theory helps a researcher generalize results to other contexts and populations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For example, &lt;em&gt;self-regulated learning&lt;/em&gt; (SRL) is widely used in learning analytics and MOOC research. SRL as a learning theory has informed data collection, data transformation, data mining, and result interpretation.&lt;/p&gt;
+
+&lt;!-- ![](https://github.com/meefen/la-spring16/blob/gh-pages/slides/imgs/theory.png?raw=true) --&gt;
+
+&lt;h3 id=&#34;2-theory-building-in-learning-analytics&#34;&gt;&lt;strong&gt;2. Theory Building in Learning Analytics&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Even more exciting to me is the possibility of building new theories of learning and teaching based on fine-grained data analysis enabled by advanced computational methods. Learning analytics and educational data mining research could give rise to new theories of learning. For example, whether keystroke analysis can shed light on our understanding of writing processes? Whether temporal analysis can uncover &amp;ldquo;productive&amp;rdquo; patterns of collaborative discourse?&lt;/p&gt;
+
+&lt;p&gt;Equally valuable are theories of learning analytics usage in emerging socio-technical contexts. For example, as new learning analytics tools are put in the hands of instructors to aid their pedagogical decisions, domain theories of analytics use are created (e.g., van Leeuwen, 2015).&lt;/p&gt;
+
+&lt;h2 id=&#34;week-4-readings&#34;&gt;Week 4 Readings&lt;/h2&gt;
+
+&lt;p&gt;This week&amp;rsquo;s readings speak in particular to &lt;em&gt;theory use&lt;/em&gt; in learning analytics. &lt;strong&gt;Reading #1&lt;/strong&gt; is a guest editorial on temporal analysis of learning data, which discusses four critical issues that are applicable to all learning analytics work. &lt;strong&gt;Reading #2&lt;/strong&gt; provides a concrete example of using a well-established learning theory (self-regulated learning in this case) in a research study. &lt;strong&gt;Reading #3&lt;/strong&gt; (optional) is the controversial Wired article mentioned above.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Chen, B., Knight, S., &amp;amp; Wise, A. F. (2018). &lt;a href=&#34;https://learning-analytics.info/journals/index.php/JLA/article/view/5940&#34; target=&#34;_blank&#34;&gt;Critical Issues in Designing and Implementing Temporal Analytics&lt;/a&gt;. Journal of Learning Analytics, 5(1), 1–9. (&lt;strong&gt;Note: Only Sections 3-4 (pp. 3-7) are required.&lt;/strong&gt;)&lt;/li&gt;
+&lt;li&gt;Kizilcec, R. F., Pérez-Sanagustín, M., &amp;amp; Maldonado, J. J. (2017). &lt;a href=&#34;https://ac-els-cdn-com.ezp2.lib.umn.edu/S0360131516301798/1-s2.0-S0360131516301798-main.pdf?_tid=5d633a5c-21d2-4794-a6f5-96a7cf77d52e&amp;amp;acdnat=1537801892_bca143512353c94f241d697e8f981780&#34; target=&#34;_blank&#34;&gt;Self-regulated learning strategies predict learner behavior and goal attainment in Massive Open Online Courses&lt;/a&gt;. Computers &amp;amp; Education, 104, 18–33.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Optional&lt;/strong&gt;: Anderson, 2008, &lt;a href=&#34;https://www.wired.com/2008/06/pb-theory/&#34; target=&#34;_blank&#34;&gt;The End of Theory: The Data Deluge Makes the Scientific Method Obsolete&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;When reading each required article, &lt;strong&gt;please create at least 1 annotation and reply to 2 annotations made by peers&lt;/strong&gt;. When interacting with &lt;strong&gt;Reading #2&lt;/strong&gt;, please note how the self-regulated learning theory was applied in the study.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://images.pexels.com/photos/64775/pexels-photo-64775.jpeg?auto=compress&amp;amp;cs=tinysrgb&amp;amp;dpr=2&amp;amp;h=750&amp;amp;w=1260&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;housekeeping&#34;&gt;Housekeeping&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Please continue to explore and articulate your Working Group project ideas.&lt;/strong&gt; Please consider &lt;em&gt;problems/goals&lt;/em&gt;, &lt;em&gt;stakeholders&lt;/em&gt;, &lt;em&gt;data sources&lt;/em&gt;, &lt;em&gt;analysis&lt;/em&gt;, and &lt;em&gt;action&lt;/em&gt; of your group project.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Please consolidate your Special Interest Group (SIG) choice.&lt;/strong&gt; Feel free to ask questions on Slack if you&amp;rsquo;re unsure about any SIG topics.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 3: Ethics, Algorithmic Accountability, and System Integrity</title>
       <link>https://colig.github.io/laumn/post/week3/</link>
       <pubDate>Sun, 16 Sep 2018 00:00:00 -0500</pubDate>
