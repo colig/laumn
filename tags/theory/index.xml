@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a Creative Commons Attribution 4.0 International License (CC BY)</copyright>
-    <lastBuildDate>Mon, 24 Sep 2018 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://colig.github.io/laumn/tags/theory/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Week 5: Hidden Assumptions: Epistemology, Pedagogy, and Assessment</title>
+      <link>https://colig.github.io/laumn/post/week5/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://colig.github.io/laumn/post/week5/</guid>
+      <description>In this week, we will extend our dialogues on learning theory in Week 4 into deeper conversations about hidden assumptions in learning analytics.
+This line of thinking has been greatly informed by a talk given by Simon Knight at LAK13 titled Epistemology, Pedagogy, Assessment and Learning Analytics (see slides below). Their work has evolved over the years and one reading for this week is a book chapter with a set of provocations pushing us to think more about hidden assumptions.</description>
+    </item>
     
     <item>
       <title>Week 4: Theory and Learning Analytics</title>
