@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Examples on CI 5371</title>
+    <link>https://colig.github.io/laumn/tags/examples/</link>
+    <description>Recent content in Examples on CI 5371</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Licensed under a Creative Commons Attribution 4.0 International License (CC BY)</copyright>
+    <lastBuildDate>Mon, 15 Oct 2018 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://colig.github.io/laumn/tags/examples/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Week 7: Cases and Examples of Learning Analytics</title>
+      <link>https://colig.github.io/laumn/post/week7/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://colig.github.io/laumn/post/week7/</guid>
+      <description>Over the past few weeks, we have explored multiple dimensions of Learning Analytics &amp;ndash; ethical, epistemological, conceptual/theoretical, pedagogical, technical &amp;ndash; and have devleoped nuanced understanding of this field. Bringing together perspectives from distinctive disciplines into meaningful conversations takes time. I&amp;rsquo;m proud of our collective work so far in the community!
+Thanks to information shared by Crystal, I attended a panel named &amp;ldquo;Big Data and the Future of Social Research&amp;rdquo; organized by the College of Liberal Arts.</description>
+    </item>
+    
+  </channel>
+</rss>

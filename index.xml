@@ -11,6 +11,119 @@
     <atom:link href="/laumn/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Week 7: Cases and Examples of Learning Analytics</title>
+      <link>https://colig.github.io/laumn/post/week7/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://colig.github.io/laumn/post/week7/</guid>
+      <description>
+
+&lt;p&gt;Over the past few weeks, we have explored multiple dimensions of Learning Analytics &amp;ndash; &lt;em&gt;ethical&lt;/em&gt;, &lt;em&gt;epistemological&lt;/em&gt;, &lt;em&gt;conceptual/theoretical&lt;/em&gt;, &lt;em&gt;pedagogical&lt;/em&gt;, &lt;em&gt;technical&lt;/em&gt; &amp;ndash; and have devleoped nuanced understanding of this field.  Bringing together perspectives from distinctive disciplines into meaningful conversations takes time. I&amp;rsquo;m proud of our collective work so far in the community!&lt;/p&gt;
+
+&lt;p&gt;Thanks to information shared by Crystal, I attended a panel named &amp;ldquo;&lt;strong&gt;Big Data and the Future of Social Research&lt;/strong&gt;&amp;rdquo; organized by &lt;a href=&#34;https://cla.umn.edu/events/cla-time-past-time-present-time-future&#34; target=&#34;_blank&#34;&gt;the College of Liberal Arts&lt;/a&gt;. Many points made by the panelists resonated with myself and are in line with what we&amp;rsquo;ve discussing in the community. I especially appreciate panelists&amp;rsquo; thoughts on challenges with &amp;ldquo;big data&amp;rdquo; projects (my tweet below). I anticipate we will wrestle with these challenges as well in the next couple of weeks.&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Challenges with &lt;a href=&#34;https://twitter.com/hashtag/BigData?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#BigData&lt;/a&gt; research shared by the panel:&lt;br&gt;1) linking different data sources; 2) communication within an interdisciplinary team (building shared vocab, willing to make conceptual/methodological shifts); 3) ethical challenges even for ancient records &lt;a href=&#34;https://twitter.com/umncla?ref_src=twsrc%5Etfw&#34;&gt;@umncla&lt;/a&gt;&lt;/p&gt;&amp;mdash; ʙᴏᴅᴏɴɢ ᴄʜᴇɴ (@bod0ng) &lt;a href=&#34;https://twitter.com/bod0ng/status/1050420478815457281?ref_src=twsrc%5Etfw&#34;&gt;October 11, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;week-7-plan-and-resources&#34;&gt;Week 7 Plan and Resources&lt;/h2&gt;
+
+&lt;p&gt;This week, we will apply what we&amp;rsquo;ve explored so far &lt;strong&gt;to identify and analyze cases/examples of learning analytics applications&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;1-identify&#34;&gt;1: Identify&lt;/h3&gt;
+
+&lt;p&gt;Ideally, you will identify a case/example pertinent to your Working Group project.&lt;/p&gt;
+
+&lt;p&gt;I am providing a few examples below but you should absolutely go beyond this list.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Course Signals: &lt;a href=&#34;https://er.educause.edu/articles/2010/3/signals-applying-academic-analytics&#34; target=&#34;_blank&#34;&gt;EDUCAUSE article&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/watch?v=kURsmrkdS04&#34; target=&#34;_blank&#34;&gt;LAK12 video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ECoach: &lt;a href=&#34;http://ai.umich.edu/portfolio/e-coach/&#34; target=&#34;_blank&#34;&gt;http://ai.umich.edu/portfolio/e-coach/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Academic Writing Analytics: &lt;a href=&#34;https://utscic.edu.au/tools/awa/&#34; target=&#34;_blank&#34;&gt;https://utscic.edu.au/tools/awa/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Yellowdig visualization tool: &lt;a href=&#34;http://sites.northwestern.edu/teachx2016/2016/01/26/gru/&#34; target=&#34;_blank&#34;&gt;http://sites.northwestern.edu/teachx2016/2016/01/26/gru/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2-analyze&#34;&gt;2. Analyze&lt;/h3&gt;
+
+&lt;p&gt;When analyzing a case/example, please consider the following aspects:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;em&gt;Aspects of the project&lt;/em&gt;&lt;/th&gt;
+&lt;th&gt;&lt;em&gt;Analysis&lt;/em&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Name and links&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Context and stakeholders&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Project goals&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Learning constructs&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Data sources&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Data analysis/mining techniques&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Actions suggested or taken&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Ethical considerations&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;To contribute your analysis, please &lt;strong&gt;make a Hypothesis annotation on a webpage about the analyzed case/example&lt;/strong&gt;.  Please be prepared to introduce the case during our Zoom meeting. Feel free to comment on each other&amp;rsquo;s analysis.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Pro Tip&lt;/em&gt;: You can copy-and-paste the &lt;a href=&#34;https://en.wikipedia.org/wiki/Markdown&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; code below to make a table in your annotation.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;| Aspects of the project/application | Analysis |
+|------------------------------------|----------|
+| Name and links                     |          |
+| Context and stakeholders           |          |
+| Project goals                      |          |
+| Learning constructs                |          |
+| Data sources                       |          |
+| Data analysis/mining techniques    |          |
+| Actions taken or suggested         |          |
+| Ethical considerations             |          |
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;housekeeping-for-formal-participation&#34;&gt;Housekeeping for Formal Participation&lt;/h2&gt;
+
+&lt;p&gt;Since we&amp;rsquo;ve finalized &lt;strong&gt;our Working Group and Special Interest Group plans&lt;/strong&gt;, please create channels on Slack and invite group members in.&lt;/p&gt;
+
+&lt;p&gt;Have a great week!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/Y8TIkyxj0F2KY/giphy.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 6: Educational Data Mining: An Overview</title>
       <link>https://colig.github.io/laumn/post/week6/</link>
       <pubDate>Mon, 08 Oct 2018 00:00:00 -0500</pubDate>
