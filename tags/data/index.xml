@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tools on CI 5371</title>
-    <link>https://colig.github.io/laumn/tags/tools/</link>
-    <description>Recent content in Tools on CI 5371</description>
+    <title>Data on CI 5371</title>
+    <link>https://colig.github.io/laumn/tags/data/</link>
+    <description>Recent content in Data on CI 5371</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a Creative Commons Attribution 4.0 International License (CC BY)</copyright>
     <lastBuildDate>Mon, 22 Oct 2018 00:00:00 -0500</lastBuildDate>
     
-	<atom:link href="https://colig.github.io/laumn/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://colig.github.io/laumn/tags/data/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,15 +20,6 @@
       <guid>https://colig.github.io/laumn/post/week8/</guid>
       <description>Data wrangling, or data munging, is a critical part of any learning analytics project. It covers multiple components of the Learning Analytics Model including the collection, storage, cleaning, and integration of data (see Siemens 2013, which we read in Week 1).
 Due to the quantity of data and the diversity of data sources, a learning analytics project often necessicitates data wrangling &amp;ndash; conducted by humans &amp;ndash; in order to transform data into actionable intelligence and systematic action (Clow, 2012).</description>
-    </item>
-    
-    <item>
-      <title>Web Annotations</title>
-      <link>https://colig.github.io/laumn/post/annotations/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 -0500</pubDate>
-      
-      <guid>https://colig.github.io/laumn/post/annotations/</guid>
-      <description> </description>
     </item>
     
   </channel>

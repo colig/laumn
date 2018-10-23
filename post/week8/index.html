@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 2.4.0">
+  <meta name="generator" content="Hugo 0.47.1" />
+  <meta name="author" content="Bodong Chen">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="Consider the data pipeline and play with data wrangling tools.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://colig.github.io/laumn/post/week8/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+
+  <link rel="stylesheet" href="/laumn/styles.css">
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-90346147-2', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+  <link rel="alternate" href="https://colig.github.io/laumn/index.xml" type="application/rss+xml" title="CI 5371">
+  <link rel="feed" href="https://colig.github.io/laumn/index.xml" type="application/rss+xml" title="CI 5371">
+  
+
+  <link rel="manifest" href="/laumn/site.webmanifest">
+  <link rel="icon" type="image/png" href="/laumn/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/laumn/img/icon-192.png">
+
+  <link rel="canonical" href="https://colig.github.io/laumn/post/week8/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@bod0ng">
+  <meta property="twitter:creator" content="@bod0ng">
+  
+  <meta property="og:site_name" content="CI 5371">
+  <meta property="og:url" content="https://colig.github.io/laumn/post/week8/">
+  <meta property="og:title" content="Week 8: &#39;Fun with Data&#39; Hands-on | CI 5371">
+  <meta property="og:description" content="Consider the data pipeline and play with data wrangling tools."><meta property="og:image" content="https://colig.github.io/laumn/img/https:/images.pexels.com/photos/1251179/pexels-photo-1251179.jpeg">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-10-22T00:00:00-05:00">
+  
+  <meta property="article:modified_time" content="2018-10-22T00:00:00-05:00">
+  
+
+  
+
+  
+
+  <title>Week 8: &#39;Fun with Data&#39; Hands-on | CI 5371</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/laumn/">CI 5371</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/laumn/#about">
+            
+            <span>About</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/laumn/post/">
+            
+            <span>Pages</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+            
+          
+        
+
+        <li class="nav-item">
+          <a href="https://la-mn.slack.com/" target="_blank" rel="noopener">
+            
+            <span>Slack</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+            
+          
+        
+
+        <li class="nav-item">
+          <a href="/laumn/post/annotations/" target="_blank" rel="noopener">
+            
+            <span>Annotations</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+<div class="article-header">
+  
+  
+    <img src="https://images.pexels.com/photos/1251179/pexels-photo-1251179.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" class="article-banner" itemprop="image">
+  
+
+  <span class="article-header-caption">Image credit: <a href="https://www.pexels.com/photo/person-flattening-dough-with-rolling-pin-1251179/" target="_blank"><strong>pixabay</strong></a></span>
+</div>
+
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Week 8: &#39;Fun with Data&#39; Hands-on</h1>
+
+    
+
+<div class="article-metadata">
+
+  
+  
+  
+  <div>
+    
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Bodong Chen</span>
+    </span>
+    
+  </div>
+  
+
+  <span class="article-date">
+    
+    <meta content="2018-10-22 00:00:00 -0500 CDT" itemprop="datePublished">
+    <time datetime="2018-10-22 00:00:00 -0500 CDT" itemprop="dateModified">
+      Oct 22, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Bodong Chen">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Week%208%3a%20%27Fun%20with%20Data%27%20Hands-on&amp;url=https%3a%2f%2fcolig.github.io%2flaumn%2fpost%2fweek8%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fcolig.github.io%2flaumn%2fpost%2fweek8%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fcolig.github.io%2flaumn%2fpost%2fweek8%2f&amp;title=Week%208%3a%20%27Fun%20with%20Data%27%20Hands-on"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fcolig.github.io%2flaumn%2fpost%2fweek8%2f&amp;title=Week%208%3a%20%27Fun%20with%20Data%27%20Hands-on"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Week%208%3a%20%27Fun%20with%20Data%27%20Hands-on&amp;body=https%3a%2f%2fcolig.github.io%2flaumn%2fpost%2fweek8%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p><strong>Data wrangling</strong>, or data munging, is a critical part of any learning analytics project. It covers multiple components of the <em>Learning Analytics Model</em> including the collection, storage, cleaning, and integration of data (see Siemens 2013, which we read in <a href="https://colig.github.io/laumn/post/week1/" target="_blank">Week 1</a>).</p>
+
+<p><img src="https://c1.staticflickr.com/3/2814/9662456144_51b12d6057_b.jpg" alt="LA Model by Siemens" /></p>
+
+<p>Due to the quantity of data and the diversity of data sources, a learning analytics project often necessicitates data wrangling &ndash; conducted by humans &ndash; in order to transform data into actionable intelligence and systematic action (<a href="https://dl.acm.org/citation.cfm?doid=2567574.2567603" target="_blank">Clow, 2012</a>).</p>
+
+<p>This week, we will:</p>
+
+<ol>
+<li>Familiarzie with the concept of data wrangling</li>
+<li>Play with at least one data-wrangling tool of your choice</li>
+<li>Share your data-wranglinge experiences with peers</li>
+<li>Draft a data-wrangling plan with your Working Group members</li>
+</ol>
+
+<h2 id="what-is-data-wrangling">What is data wrangling?</h2>
+
+<p>According to <a href="https://en.wikipedia.org/wiki/Data_wrangling" target="_blank">Wikipedia</a>:</p>
+
+<blockquote>
+<p><strong>Data wrangling</strong>, sometimes referred to as data munging, is the process of transforming and mapping data from one &ldquo;raw&rdquo; data form into another format with the intent of making it more appropriate and valuable for a variety of downstream purposes such as analytics. A <strong>data wrangler</strong> is a person who performs these transformation operations.</p>
+</blockquote>
+
+<p>Over the past years, I have seen polls of data scientists (like <a href="https://www.forbes.com/sites/gilpress/2016/03/23/data-preparation-most-time-consuming-least-enjoyable-data-science-task-survey-says/#4d660d346f63" target="_blank">this one</a>) showing they spend 60% of their time &lsquo;massaging&rsquo; instead of analyzing data. This percentage may even go up to 80-90% <a href="https://www.infoworld.com/article/3228245/data-science/the-80-20-data-science-dilemma.html" target="_blank">in some reports</a>.</p>
+
+<!-- ![](https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fgilpress%2Ffiles%2F2016%2F03%2FTime-1200x511.jpg) -->
+
+<p><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">“90% of data science is wrangling data, the other 10% is complaining about wrangling data.”<a href="https://twitter.com/evelgab?ref_src=twsrc%5Etfw">@evelgab</a> at <a href="https://twitter.com/hashtag/rstatsnyc?src=hash&amp;ref_src=twsrc%5Etfw">#rstatsnyc</a></p>&mdash; David Robinson (@drob) <a href="https://twitter.com/drob/status/987436677026254848?ref_src=twsrc%5Etfw">April 20, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<!-- ![](https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fgilpress%2Ffiles%2F2016%2F03%2FLeast-Enjoyable4-1200x511.jpg) -->
+
+<h2 id="plan-and-resources-this-week">Plan and Resources This Week</h2>
+
+<p>As each Working Group project starts to take shape, this week provides each group an opportunity to <strong>consider the data aspect</strong> and <strong>draft a Data Wrangling plan</strong> for the project.</p>
+
+<p>Below are activities designed for this week.</p>
+
+<h3 id="1-watch-a-lecture-on-data-wrangling">1. Watch a lecture on data wrangling</h3>
+
+<p>This lecture was delivered by <a href="https://blog.ouseful.info/about/" target="_blank"><strong>Tony Hirst</strong></a> to the <a href="https://www.edx.org/course/data-analytics-learning-utarlingtonx-link5-10x" target="_blank"><em>Data, Analytics and Learning</em> MOOC</a> in 2014. Tony is an active blogger, and <a href="https://blog.ouseful.info/" target="_blank">his blog</a> has always been a great source of inspiration for me.</p>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wszwwbWftUs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<h3 id="2-play-with-one-data-wranging-tool-of-your-choice">2. Play with one data wranging tool of your choice</h3>
+
+<p>Our choices include &ndash; but are not limited to &ndash; the following:</p>
+
+<p><strong>Spreadsheets</strong>. Yes, spreadsheets (e.g. Excel, Google Sheets) are incredibly powerful when it comes to data wrangling. Below are two tutorials that may help you unleash the power of spreadsheets.</p>
+
+<ul>
+<li><a href="https://schoolofdata.org/courses/#IntroDataCleaning" target="_blank">School of Data: A Gentle Introduction to Data Cleaning</a></li>
+<li><a href="http://www.datacarpentry.org/spreadsheet-ecology-lesson/" target="_blank">Data Carpentry: Data Organization in Spreadsheets</a>
+<!-- - [School of Data Handbook: Using a spreadsheet to clean up a dataset](https://datapatterns.readthedocs.org/en/latest/recipes/cleaning-data-with-spreadsheets.html) --></li>
+</ul>
+
+<p><strong>OpenRefine</strong>, formerly Google Refine, &ldquo;is a powerful tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data.&rdquo; <a href="http://openrefine.org/" target="_blank">Its official website</a> provides several introductory videos to get you started. There is <a href="https://datacarpentry.org/openrefine-socialsci/" target="_blank">a Data Capentry course on OpenRefine for Social Science Data</a>.</p>
+
+<p><strong>Dataiku Data Science Studio (<a href="https://www.dataiku.com/dss/index.html" target="_blank">DSS</a>)</strong>. A data science workbench that provides a Graphical User Interface (GUI) similar to OpenRefine. I&rsquo;ve recorded a tutorial video (of an earlier version) to demonstrate its usefulness for data wrangling. <a href="https://www.dataiku.com/learn/guide/tutorials/basics.html" target="_blank">More tutorials</a> can be found on its official website.</p>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/uNYrjeoPFGU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<p><strong>R and RStudio</strong>. If you know R basics, I strongly encourage you to spend some time on the <code>tidyverse</code> ecosystem. It has absolutely transformed my data wrangling practices in R.</p>
+
+<ul>
+<li><a href="https://www.rstudio.com/resources/webinars/data-wrangling-with-r-and-rstudio/" target="_blank">RStudio webinar on data wrangling</a></li>
+<li><a href="https://www.lynda.com/R-tutorials/Data-Wrangling-R/594442-2.html" target="_blank">Lynda.com course on Data wrangling with R and RStudio</a></li>
+</ul>
+
+<p><strong>Python</strong>, another popular programming language among data scientists. There are plenty of tutorioals out there. Below are just two examples.</p>
+
+<ul>
+<li><a href="https://towardsdatascience.com/wrangling-data-with-pandas-27ef828aff01" target="_blank">Wrangling data with <code>Pandas</code></a></li>
+<li><a href="https://medium.com/ibm-watson-data-lab/wrangle-data-in-jupyter-notebooks-with-pixiedust-rosie-7d9ac1129925" target="_blank">Wrangle Data in Jupyter Notebooks with <code>PixieDust Rosie</code></a></li>
+</ul>
+
+<p>This list is by no means exhaustive or comprehensive. <strong>Is there a data wrangling tool you like? Let us know by leaving a Hypothesis annotation here!</strong></p>
+
+<h3 id="3-share-your-journey-as-a-data-wrangler-via-slack">3. Share your journey as a Data Wrangler via Slack</h3>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/SuccessKid.jpg/256px-SuccessKid.jpg" alt="" /></p>
+
+<p>Yes, we can do it!  How did your journey go? Have you discovered your data-wrangling superpower? Share a blurb about your journey in the <code>#general</code> channel of Slack.</p>
+
+<p>For Open Participants, please tweet under the <code>#LAUMN</code> hashtag.</p>
+
+<h3 id="4-discuss-a-data-wrangling-plan-with-your-working-group">4. Discuss a data-wrangling plan with your Working Group</h3>
+
+<p>What implications does this week&rsquo;s work have on your Working Group project? Discuss with your group members anywhere you like (e.g. Slack, Zoom, F2F).</p>
+
+<h2 id="housekeeping-for-formal-participation">Housekeeping for Formal Participation</h2>
+
+<p><strong>There will be <em>no</em> Zoom meeting on Oct 29</strong> to provide us more &lsquo;play time&rsquo;.</p>
+
+<p><strong>The first SIG Session on <em>Social Networks</em> will happen on Nov 5.</strong> Details will be posted on Oct 29.</p>
+
+<p>Enjoy digging!</p>
+
+<p><img src="http://gif-finder.com/wp-content/uploads/2016/06/Dog-Digging.gif" alt="" /></p>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="label label-default" href="https://colig.github.io/laumn/tags/tools/">Tools</a>
+  
+  <a class="label label-default" href="https://colig.github.io/laumn/tags/data/">Data</a>
+  
+</div>
+
+
+
+
+    
+    
+    <div class="article-widget">
+      <div class="hr-light"></div>
+      <h3>Related</h3>
+      <ul>
+        
+        <li><a href="/laumn/post/annotations/">Web Annotations</a></li>
+        
+      </ul>
+    </div>
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+
+    
+
+    <p class="powered-by">
+
+      Licensed under a Creative Commons Attribution 4.0 International License (CC BY) &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    <script src="/laumn/js/hugo-academic.js"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/laumn/search.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    <script src="/laumn/js/search.js"></script>
+    
+
+    
+    
+
+  </body>
+</html>
+
