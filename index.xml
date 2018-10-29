@@ -11,6 +11,74 @@
     <atom:link href="/laumn/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Week 9: Social Network Analysis</title>
+      <link>https://colig.github.io/laumn/post/week9/</link>
+      <pubDate>Sun, 28 Oct 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://colig.github.io/laumn/post/week9/</guid>
+      <description>
+
+&lt;p&gt;This week, we will be diving into Social Network Analysis as an approach to study the exchange of information. Social network analysis looks at various patterns of relationships between different actors and examines the availability and exchange of resources between them (Scott, 1991; Wasserman &amp;amp; Faust, 1994). The actors exchanging resources and information could be individuals or organizations and their relationships determine the kind of information exchanged.&lt;/p&gt;
+
+&lt;p&gt;Here is a short video to help you through the definition of social network analysis better.&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/xT3EpF2EsbQ&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1600/1*2rOTpI5RyI8V-mMRfCv_fw.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;plan-and-resources-this-week&#34;&gt;Plan and Resources this Week:&lt;/h2&gt;
+
+&lt;h3 id=&#34;1-read-grunspan-et-al-2017-https-www-lifescied-org-doi-10-1187-cbe-13-08-0162&#34;&gt;1. Read &lt;a href=&#34;https://www.lifescied.org/doi/10.1187/cbe.13-08-0162&#34; target=&#34;_blank&#34;&gt;Grunspan et al. (2017)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Annotate as usual with “good points, useful points, muddy points.” We won’t be using FROG this week, but you can use these tags to keep track of points relevant for your WG.&lt;/p&gt;
+
+&lt;h3 id=&#34;2-choose-one-additional-reading-and-annotate-as-usual&#34;&gt;2. Choose one additional reading and annotate as usual&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1nKcFx7Qn_zda73xv9kByXtH5gpqefkUf/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;Topîrceanu, 2017&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/122Msb5sB3ncu_koYDfQpIEhUAZbmlpC8/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;Oshima, Oshima, &amp;amp; Matsuzawa, 2012&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1BaVC2eCmPd2B96QBG2Ka4lW2P1HrwHO0/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;Penuel, Riel, Krause &amp;amp; Frank, 2009&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;3-consider-the-following-questions-as-you-read-the-articles-about-sna&#34;&gt;3. Consider the following questions as you read the articles about SNA:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What are the key elements of the Grunspan, Wiggins, and Goodreau article? How do you see these emerge (or not) in your chosen additional reading?&lt;/li&gt;
+&lt;li&gt;What tools do you notice the authors from your two articles using for Social Network Analysis?&lt;/li&gt;
+&lt;li&gt;How do you see Social Network Analysis being of use to your Working Group project?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;4-explore-a-social-network-analysis-tool&#34;&gt;4. Explore a social network analysis tool&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Gephi&#34; target=&#34;_blank&#34;&gt;According to Wikipedia&lt;/a&gt;, Gephi is an open-source network analysis tool that uses Java. To explore Gephi, check out one or more of the following resources:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gephi.org/&#34; target=&#34;_blank&#34;&gt;Gephi.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Overview of Gephi
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=2FqM4gKeNO4&#34; target=&#34;_blank&#34;&gt;Gephi: Making your relational data very pretty&lt;/a&gt; &amp;ndash; This tutorial is kind of long, but it uses sample data to explore many of the features of Gephi.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.briansarnacki.com/gephi-tutorial/&#34; target=&#34;_blank&#34;&gt;The Complete n00b’s Guide to Gephi&lt;/a&gt; &amp;ndash; This article breaks down how to start using Gephi. It’s a nice simple resource to get started.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Download Gephi (from gephi.org) and explore the features it has. The download comes with sample data using characters from Les Miserables. The video tutorial linked here uses that data to demonstrate many of the features of Gephi. If you’re unable to use Gephi on your personal computer, you might consider connecting with a classmate who is able to use it successfully. Note: you may need to download/update Java on your computer.&lt;/p&gt;
+
+&lt;p&gt;If you have any issues or questions as you’re exploring this tool, please reach out to your colleagues on Slack.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.giphy.com/media/l2YWSmwWULoAw/giphy.webp&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;5-use-data-from-hypothes-is-annotations-to-make-a-visualization&#34;&gt;5. Use data from Hypothes.is annotations to make a visualization&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/drive/folders/12rCVUddZ-8ltABXgdroQSLLvqH-XGc1_?usp=sharing&#34; target=&#34;_blank&#34;&gt;Use data collected and prepared from annotations&lt;/a&gt; from four articles this semester to explore the features of Gephi a little bit more. There are two .csv files you will need to use Gephi. One file is the nodes (people) from our class, and the other is the edges (relationships/interactions). The edges are undirected.&lt;/p&gt;
+
+&lt;p&gt;Import the data into Gephi and create a visualization of our interactions in these four articles. Be prepared to share your visualizations during our discussion on &lt;strong&gt;Monday, November 5th&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.giphy.com/media/l0IylOPCNkiqOgMyA/giphy.webp&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 8: &#39;Fun with Data&#39; Hands-on</title>
       <link>https://colig.github.io/laumn/post/week8/</link>
       <pubDate>Mon, 22 Oct 2018 00:00:00 -0500</pubDate>

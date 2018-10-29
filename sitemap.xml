@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>https://colig.github.io/laumn/post/week9/</loc>
+      <lastmod>2018-10-29T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://colig.github.io/laumn/post/week8/</loc>
       <lastmod>2018-10-22T00:00:00-05:00</lastmod>
     </url>
@@ -144,7 +152,7 @@
     <url>
     
       <loc>https://colig.github.io/laumn/tags/data/</loc>
-      <lastmod>2018-10-22T00:00:00-05:00</lastmod>
+      <lastmod>2018-10-29T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -181,15 +189,6 @@
     
       <loc>https://colig.github.io/laumn/tags/glossary/</loc>
       <lastmod>2018-09-06T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://colig.github.io/laumn/tags/hide/</loc>
-      <lastmod>2018-08-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -251,7 +250,7 @@
     <url>
     
       <loc>https://colig.github.io/laumn/tags/tools/</loc>
-      <lastmod>2018-10-22T00:00:00-05:00</lastmod>
+      <lastmod>2018-10-29T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -261,6 +260,15 @@
     
       <loc>https://colig.github.io/laumn/tags/video/</loc>
       <lastmod>2018-09-11T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://colig.github.io/laumn/tags/hide/</loc>
+      <lastmod>2018-08-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
