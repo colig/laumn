@@ -7,15 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a Creative Commons Attribution 4.0 International License (CC BY)</copyright>
-    <lastBuildDate>Sun, 28 Oct 2018 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 28 Oct 2018 00:00:00 -0600</lastBuildDate>
     
 	<atom:link href="https://colig.github.io/laumn/tags/data/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Predictive Modeling</title>
+      <link>https://colig.github.io/laumn/post/week10/</link>
+      <pubDate>Sun, 28 Oct 2018 00:00:00 -0600</pubDate>
+      
+      <guid>https://colig.github.io/laumn/post/week10/</guid>
+      <description>&amp;ldquo;All models are wrong; some are useful&amp;rdquo; By the end of this week we hope that you will be able to better understand and explain this quote. This week, we will be surveying predictive modeling in education using a combination of readings and tools to work with data. Let&amp;rsquo;s get started!
+Plan and Resources for this Week: 1. Take this quick survey 2. Readings  Required: Brooks and Thompson. Handbook of Learning Technologies Chp 5 “ Predictive Modelling in Teaching and Learning:&amp;rdquo; Choose one additional reading:  The promise and peril of predictive analytics in higher education:MANUELA EKOWO AND IRIS PALMER, Oct 2016 Predictive Modeling of Student Behavior Using Granular Large-Scale Action DataSteven Tang, Joshua C.</description>
+    </item>
+    
+    <item>
       <title>Week 9: Social Network Analysis</title>
       <link>https://colig.github.io/laumn/post/week9/</link>
-      <pubDate>Sun, 28 Oct 2018 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 28 Oct 2018 00:00:00 -0600</pubDate>
       
       <guid>https://colig.github.io/laumn/post/week9/</guid>
       <description>This week, we will be diving into Social Network Analysis as an approach to study the exchange of information. Social network analysis looks at various patterns of relationships between different actors and examines the availability and exchange of resources between them (Scott, 1991; Wasserman &amp;amp; Faust, 1994). The actors exchanging resources and information could be individuals or organizations and their relationships determine the kind of information exchanged.
@@ -25,7 +35,7 @@ Here is a short video to help you through the definition of social network analy
     <item>
       <title>Week 8: &#39;Fun with Data&#39; Hands-on</title>
       <link>https://colig.github.io/laumn/post/week8/</link>
-      <pubDate>Mon, 22 Oct 2018 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 22 Oct 2018 00:00:00 -0600</pubDate>
       
       <guid>https://colig.github.io/laumn/post/week8/</guid>
       <description>Data wrangling, or data munging, is a critical part of any learning analytics project. It covers multiple components of the Learning Analytics Model including the collection, storage, cleaning, and integration of data (see Siemens 2013, which we read in Week 1).

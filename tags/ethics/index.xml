@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a Creative Commons Attribution 4.0 International License (CC BY)</copyright>
-    <lastBuildDate>Sun, 16 Sep 2018 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 16 Sep 2018 00:00:00 -0600</lastBuildDate>
     
 	<atom:link href="https://colig.github.io/laumn/tags/ethics/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Week 3: Ethics, Algorithmic Accountability, and System Integrity</title>
       <link>https://colig.github.io/laumn/post/week3/</link>
-      <pubDate>Sun, 16 Sep 2018 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 16 Sep 2018 00:00:00 -0600</pubDate>
       
       <guid>https://colig.github.io/laumn/post/week3/</guid>
       <description>Let&amp;rsquo;s be clear, ethics should not be an after-thought in a learning analytics application. But what do ethical practices in the field entail is not always clear.
