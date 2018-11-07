@@ -31,12 +31,12 @@
 &lt;h3 id=&#34;2-readings&#34;&gt;2. Readings&lt;/h3&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Required&lt;/strong&gt;: Brooks and Thompson. Handbook of Learning Technologies Chp 5 &lt;a href=&#34;https://solaresearch.org/wp-content/uploads/2017/05/chapter5.pdf&#34; target=&#34;_blank&#34;&gt;“ Predictive Modelling in Teaching and Learning:&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Choose one additional reading:
+&lt;li&gt;&lt;strong&gt;Required&lt;/strong&gt;: Brooks and Thompson. Handbook of Learning Technologies Chp 5. &lt;a href=&#34;https://solaresearch.org/wp-content/uploads/2017/05/chapter5.pdf&#34; target=&#34;_blank&#34;&gt;“ Predictive Modelling in Teaching and Learning&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Choose one additional reading&lt;/strong&gt;:
 
 &lt;ul&gt;
-&lt;li&gt;The promise and peril of predictive analytics in higher education:&lt;a href=&#34;https://na-production.s3.amazonaws.com/documents/Promise-and-Peril_4.pdf&#34; target=&#34;_blank&#34;&gt;MANUELA EKOWO AND IRIS PALMER, Oct 2016&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Predictive Modeling of Student Behavior Using Granular Large-Scale Action Data&lt;a href=&#34;https://solaresearch.org/hla-17/hla17-chapter19/&#34; target=&#34;_blank&#34;&gt;Steven Tang, Joshua C. Peterson &amp;amp; Zachary A. Pardos, 2017&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Manuel Ekowo and Iris Palmer, Oct 2016. &lt;a href=&#34;https://na-production.s3.amazonaws.com/documents/Promise-and-Peril_4.pdf&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;The promise and peril of predictive analytics in higher education&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Steven Tang, Joshua C. Peterson &amp;amp; Zachary A. Pardos, 2017.&lt;a href=&#34;https://solaresearch.org/hla-17/hla17-chapter19/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Predictive Modeling of Student Behavior Using Granular Large-Scale Action Data&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -57,7 +57,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;2min video &lt;a href=&#34;https://www.youtube.com/watch?v=J2xSIIK2OzQ&#34; target=&#34;_blank&#34;&gt;“6 steps of predictive modeling with machine learning&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;CrashCourse &lt;a href=&#34;https://www.youtube.com/watch?v=GtV-VYdNt_g&#34; target=&#34;_blank&#34;&gt;Correlation≠Causation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CrashCourse &lt;a href=&#34;https://www.youtube.com/watch?v=GtV-VYdNt_g&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Correlation≠Causation&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
@@ -66,12 +66,12 @@
 
 &lt;h3 id=&#34;4-model-building-tools-and-data-sets&#34;&gt;4. Model building tools and data sets.&lt;/h3&gt;
 
-&lt;p&gt;Weka is described as a &lt;a href=&#34;https://machinelearningmastery.com/what-is-the-weka-machine-learning-workbench/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;machine learning workbench&amp;rdquo;&lt;/a&gt;it has a straightforward GUI and is open source. This tool runs on PC, Mac &amp;amp; Linux. I am running on a Mac but does require java, so if you run into install issues that&amp;rsquo;s most likely the culprit. Reach out on slack if you do.&lt;/p&gt;
+&lt;p&gt;Weka is described as a &lt;a href=&#34;https://machinelearningmastery.com/what-is-the-weka-machine-learning-workbench/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;machine learning workbench&amp;rdquo;&lt;/a&gt; it has a straightforward GUI and is open source. This tool runs on PC, Mac &amp;amp; Linux. I am running on a Mac but does require java, so if you run into install issues that&amp;rsquo;s most likely the culprit. Reach out on slack if you do.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Step 1 Download and install &lt;a href=&#34;https://www.cs.waikato.ac.nz/ml/weka/downloading.html&#34; target=&#34;_blank&#34;&gt;Weka&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Step 2 Watch &lt;a href=&#34;https://tinyurl.com/y77y7ltj&#34; target=&#34;_blank&#34;&gt;this video&lt;/a&gt; and follow along on how to load data sets, select features, classify, compare results, evaluate and test a model.&lt;/li&gt;
-&lt;li&gt;Challenge Activity! Format and create a model for your own data set &lt;a href=&#34;https://edumine.wordpress.com/2014/08/23/fix-arff-file-not-recognised-or-unable-to-load-data-in-weka/&#34; target=&#34;_blank&#34;&gt;Use this blog post&lt;/a&gt; to learn how to create a WEKA formatted file to use with the program. Rank the features sets to determine which attributes are useful.&lt;/li&gt;
+&lt;li&gt;Optional Challenge Activity! Format and create a model for your own data set &lt;a href=&#34;https://edumine.wordpress.com/2014/08/23/fix-arff-file-not-recognised-or-unable-to-load-data-in-weka/&#34; target=&#34;_blank&#34;&gt;Use this blog post&lt;/a&gt; to learn how to create a WEKA formatted file to use with the program. Rank the features sets to determine which attributes are useful.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;5-prep-for-zoom-meeting-guided-practice&#34;&gt;5. Prep for Zoom meeting. Guided Practice.&lt;/h3&gt;
@@ -80,13 +80,13 @@
 
 &lt;ul&gt;
 &lt;li&gt;Step 1 &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1i4bjFMnjLH21-Dv9-g0rZJflvaglQ5LmjIcWzBpIcho/copy&#34; target=&#34;_blank&#34;&gt;Make a copy&lt;/a&gt; of the spreadsheet in google docs.&lt;/li&gt;
-&lt;li&gt;Step 2 &lt;a href=&#34;https://www.youtube.com/embed/OVsKev9NtVs&#34; target=&#34;_blank&#34;&gt;Watch Neal&lt;/a&gt; Take you through the steps of making predictions using the tool.&lt;/li&gt;
+&lt;li&gt;Step 2 &lt;a href=&#34;https://www.youtube.com/embed/OVsKev9NtVs&#34; target=&#34;_blank&#34;&gt;Watch Neal&lt;/a&gt; take you through the steps of making predictions using the tool.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;This is survey data retrieved from students in CI5301 “Foundations of Computer Applications for Business and Education”.
+&lt;p&gt;This is survey data retrieved from students in CI5301 “Foundations of Computer Applications for Business and Education.”
 Students responded to questions at the beginning and at the end of the semester to measure their change in digital literacies (website building skills, information management,&lt;br /&gt;
-screencasting, etc.).&lt;/p&gt;
+screencasting, etc&amp;hellip;)&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h4 id=&#34;more-context-about-the-data&#34;&gt;More Context about the Data&lt;/h4&gt;
