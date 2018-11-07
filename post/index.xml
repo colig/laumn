@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a Creative Commons Attribution 4.0 International License (CC BY)</copyright>
-    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 -0600</lastBuildDate>
     
 	<atom:link href="https://colig.github.io/laumn/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Predictive Modeling</title>
       <link>https://colig.github.io/laumn/post/week10/</link>
-      <pubDate>Sun, 28 Oct 2018 00:00:00 -0600</pubDate>
+      <pubDate>Sun, 28 Oct 2018 00:00:00 -0500</pubDate>
       
       <guid>https://colig.github.io/laumn/post/week10/</guid>
       <description>&amp;ldquo;All models are wrong; some are useful&amp;rdquo; By the end of this week we hope that you will be able to better understand and explain this quote. This week, we will be surveying predictive modeling in education using a combination of readings and tools to work with data. Let&amp;rsquo;s get started!
@@ -25,7 +25,7 @@ Plan and Resources for this Week: 1. Take this quick survey 2. Readings  Require
     <item>
       <title>Week 9: Social Network Analysis</title>
       <link>https://colig.github.io/laumn/post/week9/</link>
-      <pubDate>Sun, 28 Oct 2018 00:00:00 -0600</pubDate>
+      <pubDate>Sun, 28 Oct 2018 00:00:00 -0500</pubDate>
       
       <guid>https://colig.github.io/laumn/post/week9/</guid>
       <description>This week, we will be diving into Social Network Analysis as an approach to study the exchange of information. Social network analysis looks at various patterns of relationships between different actors and examines the availability and exchange of resources between them (Scott, 1991; Wasserman &amp;amp; Faust, 1994). The actors exchanging resources and information could be individuals or organizations and their relationships determine the kind of information exchanged.
@@ -35,7 +35,7 @@ Here is a short video to help you through the definition of social network analy
     <item>
       <title>Week 8: &#39;Fun with Data&#39; Hands-on</title>
       <link>https://colig.github.io/laumn/post/week8/</link>
-      <pubDate>Mon, 22 Oct 2018 00:00:00 -0600</pubDate>
+      <pubDate>Mon, 22 Oct 2018 00:00:00 -0500</pubDate>
       
       <guid>https://colig.github.io/laumn/post/week8/</guid>
       <description>Data wrangling, or data munging, is a critical part of any learning analytics project. It covers multiple components of the Learning Analytics Model including the collection, storage, cleaning, and integration of data (see Siemens 2013, which we read in Week 1).
@@ -45,7 +45,7 @@ Due to the quantity of data and the diversity of data sources, a learning analyt
     <item>
       <title>Week 7: Cases and Examples of Learning Analytics</title>
       <link>https://colig.github.io/laumn/post/week7/</link>
-      <pubDate>Mon, 15 Oct 2018 00:00:00 -0600</pubDate>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 -0500</pubDate>
       
       <guid>https://colig.github.io/laumn/post/week7/</guid>
       <description>Over the past few weeks, we have explored multiple dimensions of Learning Analytics &amp;ndash; ethical, epistemological, conceptual/theoretical, pedagogical, technical &amp;ndash; and have devleoped nuanced understanding of this field. Bringing together perspectives from distinctive disciplines into meaningful conversations takes time. I&amp;rsquo;m proud of our collective work so far in the community!
@@ -55,7 +55,7 @@ Thanks to information shared by Crystal, I attended a panel named &amp;ldquo;Big
     <item>
       <title>Week 6: Educational Data Mining: An Overview</title>
       <link>https://colig.github.io/laumn/post/week6/</link>
-      <pubDate>Mon, 08 Oct 2018 00:00:00 -0600</pubDate>
+      <pubDate>Mon, 08 Oct 2018 00:00:00 -0500</pubDate>
       
       <guid>https://colig.github.io/laumn/post/week6/</guid>
       <description>As a sister field of Learning Analytics, Educational Data Mining (EDM) emerged a few years earlier and has its own disciplinary identity (e.g., a stonger computer science focus, its own professional society, conference, and journal). While two communities developed separately in the beginning, communication and collaboration between two communities (PDF) have increased over the years.
@@ -66,7 +66,7 @@ The overlaps and differences between two communities are nicely summarized by Si
     <item>
       <title>Week 5: Hidden Assumptions: Epistemology, Pedagogy, and Assessment</title>
       <link>https://colig.github.io/laumn/post/week5/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 -0600</pubDate>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 -0500</pubDate>
       
       <guid>https://colig.github.io/laumn/post/week5/</guid>
       <description>In this week, we will extend our dialogues on learning theory in Week 4 into deeper conversations about hidden assumptions in learning analytics.
@@ -76,7 +76,7 @@ This line of thinking has been informed by a talk given by Simon Knight at LAK13
     <item>
       <title>Week 4: Theory and Learning Analytics</title>
       <link>https://colig.github.io/laumn/post/week4/</link>
-      <pubDate>Mon, 24 Sep 2018 00:00:00 -0600</pubDate>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 -0500</pubDate>
       
       <guid>https://colig.github.io/laumn/post/week4/</guid>
       <description>Learning analytics are about learning, so theories of learning should not be ditched despite the data deluge that has been fueling the growth of learning analytics. Since the dawn of the field, there have been voices arguing for the importance of learning theory in the design, development, and implementation of learning analytics. In 2015, a special section was published by the Journal of Learning Analytics on the relation between learning theory and learning analytics.</description>
@@ -85,7 +85,7 @@ This line of thinking has been informed by a talk given by Simon Knight at LAK13
     <item>
       <title>Week 3: Ethics, Algorithmic Accountability, and System Integrity</title>
       <link>https://colig.github.io/laumn/post/week3/</link>
-      <pubDate>Sun, 16 Sep 2018 00:00:00 -0600</pubDate>
+      <pubDate>Sun, 16 Sep 2018 00:00:00 -0500</pubDate>
       
       <guid>https://colig.github.io/laumn/post/week3/</guid>
       <description>Let&amp;rsquo;s be clear, ethics should not be an after-thought in a learning analytics application. But what do ethical practices in the field entail is not always clear.
@@ -95,7 +95,7 @@ While research ethics considers principles such as confidentiality, privacy, and
     <item>
       <title>Week 2: Learning Analytics: A Brief Overview</title>
       <link>https://colig.github.io/laumn/post/week2/</link>
-      <pubDate>Mon, 10 Sep 2018 00:00:00 -0600</pubDate>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 -0500</pubDate>
       
       <guid>https://colig.github.io/laumn/post/week2/</guid>
       <description>Thanks for the engaged conversations in the first week of #LAUMN!
@@ -105,7 +105,7 @@ We&amp;rsquo;ve been engaged in such thoughtful dialogues via Hypothes.is annota
     <item>
       <title>Glossary</title>
       <link>https://colig.github.io/laumn/post/glossary/</link>
-      <pubDate>Thu, 06 Sep 2018 00:00:00 -0600</pubDate>
+      <pubDate>Thu, 06 Sep 2018 00:00:00 -0500</pubDate>
       
       <guid>https://colig.github.io/laumn/post/glossary/</guid>
       <description> </description>
@@ -114,7 +114,7 @@ We&amp;rsquo;ve been engaged in such thoughtful dialogues via Hypothes.is annota
     <item>
       <title>Week 1: Introduction</title>
       <link>https://colig.github.io/laumn/post/week1/</link>
-      <pubDate>Wed, 29 Aug 2018 00:00:00 -0600</pubDate>
+      <pubDate>Wed, 29 Aug 2018 00:00:00 -0500</pubDate>
       
       <guid>https://colig.github.io/laumn/post/week1/</guid>
       <description>A warm welcome to CI 5371 - Learning Analytics: Theory and Practice! This course has been taught twice by myself at the University of Minnesota (in 2015 and 2016). This is the first time this course is offered fully online as a formal (non-special topics) course. As the instructor, I look forward to our adventure together this semester!
@@ -125,7 +125,7 @@ This week we will:
     <item>
       <title>Web Annotations</title>
       <link>https://colig.github.io/laumn/post/annotations/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 -0600</pubDate>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 -0500</pubDate>
       
       <guid>https://colig.github.io/laumn/post/annotations/</guid>
       <description> </description>
