@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Text Mining on CI 5371</title>
+    <link>https://colig.github.io/laumn/tags/text-mining/</link>
+    <description>Recent content in Text Mining on CI 5371</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Licensed under a Creative Commons Attribution 4.0 International License (CC BY)</copyright>
+    <lastBuildDate>Thu, 08 Nov 2018 00:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="https://colig.github.io/laumn/tags/text-mining/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Week 11: Text and Discourse Analytics (SIG 3)</title>
+      <link>https://colig.github.io/laumn/post/week11/</link>
+      <pubDate>Thu, 08 Nov 2018 00:00:00 -0600</pubDate>
+      
+      <guid>https://colig.github.io/laumn/post/week11/</guid>
+      <description>1. Read and annotate “Chapter 7: Content Analytics: The Definition, Scope, and an Overview of Published Research” (Kovanović et al., 2017) from Handbook of Learning Analytics.
+We recommend reading this article first, as it provides a nice introduction to the area of text/content analytics as part of the larger LA field. The authors also give an overview of several important studies that have implications for the future of content analytics.</description>
+    </item>
+    
+  </channel>
+</rss>

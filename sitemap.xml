@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>https://colig.github.io/laumn/post/week11/</loc>
+      <lastmod>2018-11-08T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://colig.github.io/laumn/post/week10/</loc>
       <lastmod>2018-10-29T00:00:00-05:00</lastmod>
     </url>
@@ -168,6 +176,15 @@
     
     <url>
     
+      <loc>https://colig.github.io/laumn/tags/discourse-analytics/</loc>
+      <lastmod>2018-11-08T00:00:00-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://colig.github.io/laumn/tags/edm/</loc>
       <lastmod>2018-10-08T00:00:00-05:00</lastmod>
       <priority>0</priority>
@@ -241,6 +258,15 @@
     
       <loc>https://colig.github.io/laumn/tags/techniques/</loc>
       <lastmod>2018-10-08T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://colig.github.io/laumn/tags/text-mining/</loc>
+      <lastmod>2018-11-08T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     
