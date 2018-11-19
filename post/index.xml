@@ -13,6 +13,16 @@
     
     
     <item>
+      <title>Week 12: The machine behind the curtain: Text mining, text analytics, and AI</title>
+      <link>https://colig.github.io/laumn/post/week12/</link>
+      <pubDate>Sun, 18 Nov 2018 00:00:00 -0600</pubDate>
+      
+      <guid>https://colig.github.io/laumn/post/week12/</guid>
+      <description>Last week we had the opportunity to learn about text/discourse analytics and play with Acawriter, a writing analytics tool. This week we will be extending our knowledge of text analytics by exploring the &amp;ldquo;machine behind the curtain.&amp;rdquo; Topics this week will include the text mining process as well as the AI that enables text mining to function.
+Here is a short video to help ground you in the basics of text mining:</description>
+    </item>
+    
+    <item>
       <title>Week 11: Text and Discourse Analytics (SIG 3)</title>
       <link>https://colig.github.io/laumn/post/week11/</link>
       <pubDate>Thu, 08 Nov 2018 00:00:00 -0600</pubDate>

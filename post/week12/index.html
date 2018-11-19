@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 2.4.0">
+  <meta name="generator" content="Hugo 0.49.2" />
+  <meta name="author" content="Bodong Chen">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="SIG 4 on text mining, text analytics, and AI.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://colig.github.io/laumn/post/week12/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+
+  <link rel="stylesheet" href="/laumn/styles.css">
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-90346147-2', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+  <link rel="alternate" href="https://colig.github.io/laumn/index.xml" type="application/rss+xml" title="CI 5371">
+  <link rel="feed" href="https://colig.github.io/laumn/index.xml" type="application/rss+xml" title="CI 5371">
+  
+
+  <link rel="manifest" href="/laumn/site.webmanifest">
+  <link rel="icon" type="image/png" href="/laumn/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/laumn/img/icon-192.png">
+
+  <link rel="canonical" href="https://colig.github.io/laumn/post/week12/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@bod0ng">
+  <meta property="twitter:creator" content="@bod0ng">
+  
+  <meta property="og:site_name" content="CI 5371">
+  <meta property="og:url" content="https://colig.github.io/laumn/post/week12/">
+  <meta property="og:title" content="Week 12: The machine behind the curtain: Text mining, text analytics, and AI | CI 5371">
+  <meta property="og:description" content="SIG 4 on text mining, text analytics, and AI."><meta property="og:image" content="https://colig.github.io/laumn/img/https:/ontotext.com/wp-content/uploads/2017/05/Weaving-Data-into-Text.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-11-18T00:00:00-06:00">
+  
+  <meta property="article:modified_time" content="2018-11-18T00:00:00-06:00">
+  
+
+  
+
+  
+
+  <title>Week 12: The machine behind the curtain: Text mining, text analytics, and AI | CI 5371</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/laumn/">CI 5371</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/laumn/#about">
+            
+            <span>About</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/laumn/post/">
+            
+            <span>Pages</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+            
+          
+        
+
+        <li class="nav-item">
+          <a href="https://la-mn.slack.com/" target="_blank" rel="noopener">
+            
+            <span>Slack</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+            
+          
+        
+
+        <li class="nav-item">
+          <a href="/laumn/post/annotations/" target="_blank" rel="noopener">
+            
+            <span>Annotations</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+<div class="article-header">
+  
+  
+    <img src="https://ontotext.com/wp-content/uploads/2017/05/Weaving-Data-into-Text.png" class="article-banner" itemprop="image">
+  
+
+  <span class="article-header-caption">Image credit: <a href="https://www.ontotext.com/" target="_blank"><strong>Ontotext</strong></a></span>
+</div>
+
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Week 12: The machine behind the curtain: Text mining, text analytics, and AI</h1>
+
+    
+
+<div class="article-metadata">
+
+  
+  
+  
+  <div>
+    
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Valerie Barbaro</span>
+    </span>
+    
+  </div>
+  
+
+  <span class="article-date">
+    
+    <meta content="2018-11-18 00:00:00 -0600 CST" itemprop="datePublished">
+    <time datetime="2018-11-18 00:00:00 -0600 CST" itemprop="dateModified">
+      Nov 18, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Bodong Chen">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Week%2012%3a%20The%20machine%20behind%20the%20curtain%3a%20Text%20mining%2c%20text%20analytics%2c%20and%20AI&amp;url=https%3a%2f%2fcolig.github.io%2flaumn%2fpost%2fweek12%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fcolig.github.io%2flaumn%2fpost%2fweek12%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fcolig.github.io%2flaumn%2fpost%2fweek12%2f&amp;title=Week%2012%3a%20The%20machine%20behind%20the%20curtain%3a%20Text%20mining%2c%20text%20analytics%2c%20and%20AI"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fcolig.github.io%2flaumn%2fpost%2fweek12%2f&amp;title=Week%2012%3a%20The%20machine%20behind%20the%20curtain%3a%20Text%20mining%2c%20text%20analytics%2c%20and%20AI"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Week%2012%3a%20The%20machine%20behind%20the%20curtain%3a%20Text%20mining%2c%20text%20analytics%2c%20and%20AI&amp;body=https%3a%2f%2fcolig.github.io%2flaumn%2fpost%2fweek12%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p>Last week we had the opportunity to learn about text/discourse analytics and play with Acawriter, a writing analytics tool. This week we will be extending our knowledge of text analytics by exploring the &ldquo;machine behind the curtain.&rdquo; Topics this week will include the text mining process as well as the AI that enables text mining to function.</p>
+
+<p>Here is a short video to help ground you in the basics of text mining:</p>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/I3cjbB38Z4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h3 id="1-read-the-seven-practice-areas-of-text-analytics-giner-et-al-2012-https-www-elderresearch-com-hubfs-whitepaper-the-seven-practice-areas-of-text-analytics-chapter-2-excerpt-pdf">1. Read <a href="https://www.elderresearch.com/hubfs/Whitepaper_The_Seven_Practice_Areas_of_Text_Analytics_Chapter_2_Excerpt.pdf" target="_blank">&ldquo;The Seven Practice Areas of Text Analytics&rdquo; (Giner et al., 2012)</a>.</h3>
+
+<p>This book chapter defines types of text mining and provides an overview of the text mining process. Because the selection is from a book, it references other book sections that cover specific text mining approaches. We will dig into some of these approaches our other resources.</p>
+
+<p>To facilitate both your WG project and our class discussion, annotate as usual with #GoodPoints, #UsefulPoints, and #MuddyPoints. We will be using FROG this week for our discussion.</p>
+
+<h3 id="2-optional-watch-video-on-how-machine-learning-works">2. Optional: Watch video on how machine learning works.</h3>
+
+<p>This optional video (~10 mins) describes how machine learning&ndash;a form of AI that can be used in texting mining&ndash;works. While optional, the video is fun and approachable, and it can serve as a useful foundation for learning the terms and concepts you&rsquo;ll encounter in the resources listed in #3.</p>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/R9OHn5ZF4Uo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h3 id="3-pick-your-poison-to-learn-some-related-terms-and-concepts">3. Pick your poison to learn some related terms and concepts</h3>
+
+<p>You can opt to read the article <em>or</em> watch 2 videos below. The article covers a wider variety of topics but is perhaps a bit denser (i.e., there are some formulas in it, but don&rsquo;t let those scare you). The videos cover fewer definitions but go more in depth with the ones they do include.</p>
+
+<p>Read <a href="https://arxiv.org/pdf/1707.02919.pdf" target="_blank">&ldquo;Text Mining: Techniques and Its Applications&rdquo; (Allahyari et al., 2017)</a>.</p>
+
+<p><em>OR</em></p>
+
+<p>Watch these 2 videos:</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z-EtmaFJieY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5ctbvkAMQO4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p><strong>Note:</strong> To annotate a video, you can use <a href="https://ant.umn.edu" target="_blank">VideoAnt</a>, a resource developed right here at UMN. Instructions for how to annotate are included on the VideoAnt page. You can export your annotations by clicking on the gear within your videoant and selecting the export option. You may find it helpful to annotate using our same 3 tags, though these won&rsquo;t be available for FROG.</p>
+
+<h3 id="consider-the-following-questions-as-you-explore-the-resources">Consider the following questions as you explore the resources:</h3>
+
+<ul>
+<li>What is text mining, what is machine learning, and how are they related?</li>
+<li>What are the benefits of using machine learning (or other AI) for mining text? What are the drawbacks?</li>
+<li>How might you use text mining or machine learning (or other AI) for your WG project or in your research in general?</li>
+</ul>
+
+<h3 id="4-text-mining-play-using-voyant">4. Text Mining Play Using Voyant</h3>
+
+<p><a href="https://voyant-tools.org/" target="_blank">Voyant</a> is an open-source text mining/analytics tool you likely will find very user friendly. In fact, it&rsquo;s so user friendly, there is no downloading or installing. Simply copy and paste your text or a url into the box, press the <em>Reveal!</em> button, and voila&ndash;Voyant does the rest!</p>
+
+<p>Voyant&rsquo;s tools for exploring are fairly intuitive, but you may find it helpful to watch a <a href="https://www.youtube.com/watch?v=00V3Xbr1XA4&amp;index=12&amp;list=PLVDZu8AAv9ltZp5PLqEvisxfn0ZZfaWQP" target="_blank">brief overview that describes the basic tools</a>  or watch <a href="https://www.youtube.com/watch?v=yvq-34vql8c&amp;t=642s" target="_blank">a more detailed tutorial</a> to get into the nitty-gritties of the tools.</p>
+
+<h4 id="we-will-briefly-share-our-explorations-during-discussion-on-monday-november-26">We will briefly share our explorations during discussion on Monday, November 26.</h4>
+
+<p><img src="https://voyant-tools.org/" alt="" /></p>
+
+<h3 id="5-identify-an-additional-text-mining-text-analytics-or-machine-learning-tool-of-your-choice">5. Identify an Additional Text Mining/Text Analytics or Machine-learning Tool of Your Choice</h3>
+
+<p>Identify 1 additional text mining/analytics or machine-learning tool that might be helpful in your research. To do this, review tools we&rsquo;ve discussed in class or your annotations from Week 6&rsquo;s <a href="https://journals.sagepub.com/doi/10.3102/1076998616666808" target="_blank">&ldquo;Tools for Educational Data Mining&rdquo;</a>, or find a different tool using a resource <a href="https://www.predictiveanalyticstoday.com/top-free-software-for-text-analysis-text-mining-text-analytics/" target="_blank">like this</a>. You could also opt to explore what it would involve to create your own text-mining or machine-learning tool (using R or Python, for example).</p>
+
+<p>Please note that identifying does not mean fully exploring the tool. The purpose of this exercise is to (re)familiarize yourself with a tool that you perhaps expressed interest in sometime during our course, and to give you a structured opportunity to learn a bit more about it.</p>
+
+<h4 id="once-you-ve-identified-a-tool-write-a-brief-paragraph-or-bulleted-list-that-addresses-the-following">Once you&rsquo;ve identified a tool, write a brief paragraph (or bulleted list) that addresses the following:</h4>
+
+<ul>
+<li>What tool did you choose and what are its main functions?</li>
+<li>How would you use the tool for your research?</li>
+<li>What do you like about the tool?</li>
+<li>What are its limitations? What is it lacking, or what do you find frustrating about it?</li>
+</ul>
+
+<p><strong>Be prepared to share your findings in discussion on Monday, November 26. We will be applying what you learned during an exercise in class.</strong></p>
+
+<p>Enjoy learning about the machine behind the curtain this week!</p>
+
+<p><img src="https://media.giphy.com/media/AEMyf9Oj6MpS8/giphy.gif" alt="" /></p>
+
+<p><strong>If you have any issues or questions, please reach out to your colleagues on Slack.</strong></p>
+
+<p><strong>P.S.: Think machine learning is super cool and want to learn more? Consider checking out this <a href="https://www.youtube.com/watch?v=b99UVkWzYTQ&amp;list=PLjJh1vlSEYgvGod9wWiydumYl8hOXixNu" target="_blank">video series on deep learning</a>.</strong></p>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="label label-default" href="https://colig.github.io/laumn/tags/tools/">Tools</a>
+  
+  <a class="label label-default" href="https://colig.github.io/laumn/tags/data/">Data</a>
+  
+</div>
+
+
+
+
+    
+    
+    <div class="article-widget">
+      <div class="hr-light"></div>
+      <h3>Related</h3>
+      <ul>
+        
+        <li><a href="/laumn/post/week10/">Week 10: Predictive Modeling (SIG 2)</a></li>
+        
+        <li><a href="/laumn/post/week9/">Week 9: Social Network Analysis (SIG 1)</a></li>
+        
+        <li><a href="/laumn/post/week8/">Week 8: &#39;Fun with Data&#39; Hands-on</a></li>
+        
+        <li><a href="/laumn/post/annotations/">Web Annotations</a></li>
+        
+      </ul>
+    </div>
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+
+    
+
+    <p class="powered-by">
+
+      Licensed under a Creative Commons Attribution 4.0 International License (CC BY) &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    <script src="/laumn/js/hugo-academic.js"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/laumn/search.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    <script src="/laumn/js/search.js"></script>
+    
+
+    
+    
+
+  </body>
+</html>
+

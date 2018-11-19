@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a Creative Commons Attribution 4.0 International License (CC BY)</copyright>
-    <lastBuildDate>Sun, 28 Oct 2018 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 18 Nov 2018 00:00:00 -0600</lastBuildDate>
     
 	<atom:link href="https://colig.github.io/laumn/tags/data/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Week 12: The machine behind the curtain: Text mining, text analytics, and AI</title>
+      <link>https://colig.github.io/laumn/post/week12/</link>
+      <pubDate>Sun, 18 Nov 2018 00:00:00 -0600</pubDate>
+      
+      <guid>https://colig.github.io/laumn/post/week12/</guid>
+      <description>Last week we had the opportunity to learn about text/discourse analytics and play with Acawriter, a writing analytics tool. This week we will be extending our knowledge of text analytics by exploring the &amp;ldquo;machine behind the curtain.&amp;rdquo; Topics this week will include the text mining process as well as the AI that enables text mining to function.
+Here is a short video to help ground you in the basics of text mining:</description>
+    </item>
     
     <item>
       <title>Week 10: Predictive Modeling (SIG 2)</title>
