@@ -11,6 +11,110 @@
     <atom:link href="/laumn/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Week 13: Visual Learning Analytics (SIG5)</title>
+      <link>https://colig.github.io/laumn/post/week13/</link>
+      <pubDate>Sun, 25 Nov 2018 00:00:00 -0600</pubDate>
+      
+      <guid>https://colig.github.io/laumn/post/week13/</guid>
+      <description>
+
+&lt;p&gt;Visual Learning Analytics is an emerging field, while visual analytics is defined as “the science of analytical reasoning facilitated by interactive visual interfaces”.&lt;/p&gt;
+
+&lt;h2 id=&#34;1-read-and-annotate&#34;&gt;1. Read and annotate&lt;/h2&gt;
+
+&lt;p&gt;&amp;ldquo;&lt;a href=&#34;https://drive.google.com/file/d/1n4e-EBupwu0Ub4pgQJtKhSpH86mSYJRj/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;Visual Learning Analytics of Education Data: A Systematic Literature Review and Research Agenda&lt;/a&gt;&amp;rdquo; (Vieira et al., 2018)&lt;/p&gt;
+
+&lt;p&gt;After reading, play around with a few of these &amp;ldquo;&lt;a href=&#34;https://infovisreview.github.io/VLAVisualizations/&#34; target=&#34;_blank&#34;&gt;visualization tools from the literature review&lt;/a&gt;&amp;rdquo;. The visualizations all have a lot of switches and toggles so feel free to mess around with them. There are a lot of great readings in here, but unfortunately, we will not be able to cover ALL of them.&lt;/p&gt;
+
+&lt;p&gt;Consider the following questions as you view the different visualizations. We will discuss these questions during the Zoom meeting.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What do you notice about the different visualiations?&lt;/li&gt;
+&lt;li&gt;What questions do you have about the research areas
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;2-choose-one-of-the-following-readings-and-annotate&#34;&gt;2. Choose one of the following readings and annotate:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;https://drive.google.com/file/d/1gxFy652U2d1LP764ZNM2jHQHm_9-QSks/view&#34; target=&#34;_blank&#34;&gt;Visualizing Informal Professional Development Networks: Building a Case for Learning Analytics in the Workplace&lt;/a&gt;&amp;rdquo; (de Laat and Schreurs, 2013)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;https://telrp.springeropen.com/articles/10.1186/s41039-016-0043-3&#34; target=&#34;_blank&#34;&gt;iSAT: A Visual Learning Analytics Tool for Instructors&lt;/a&gt;&amp;rdquo; (Majumdar and Iyer, 2016)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;https://drive.google.com/open?id=1nQzo0wKLJN_Wa53_PCkl_PbroXJTn3DS&#34; target=&#34;_blank&#34;&gt;Attention Please! Learning Analytics for Visualization and Recommendation&lt;/a&gt;&amp;rdquo; (Duval, 2018)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;https://drive.google.com/open?id=1py6i7VebBX8Tc7K8-qAf586nkHRI0SP7&#34; target=&#34;_blank&#34;&gt;Visualizing Activities for Self-reflection and Awareness&lt;/a&gt;&amp;rdquo; (Govaerts et al., 2010)
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: We will be using the iSAT tool later.&lt;/p&gt;
+
+&lt;p&gt;For both of your readings, annotate as usual with &amp;ldquo;GoodPoints&amp;rdquo;, &amp;ldquo;UsefulPoints&amp;rdquo;, and &amp;ldquo;MuddyPoints&amp;rdquo;. We will not be using FROG this week, but you can use these tags to keep track of points relevant for your WG.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pro Tip&lt;/strong&gt;: &lt;a href=&#34;https://www.youtube.com/watch?v=YZW6L-0qkwI&#34; target=&#34;_blank&#34;&gt;How to annotate from a Google Drive PDF&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;3-consider-the-following-questions-as-you-explore-the-resources-and-reflct-on-the-readings&#34;&gt;3. Consider the following questions as you explore the resources and reflct on the readings:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What utility do you see in any of the tools or approaches you read about?&lt;/li&gt;
+&lt;li&gt;How does visual analytics relate to the work we have previously done in this course?&lt;/li&gt;
+&lt;li&gt;What implications does visual analytics have for your WG?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;4-let-s-visualize-some-data&#34;&gt;4. Let&amp;rsquo;s visualize some data!&lt;/h2&gt;
+
+&lt;p&gt;Choose one of the tools below to visualize some data. If you are feeling bold, try out both!&lt;/p&gt;
+
+&lt;h3 id=&#34;tool-1-isat&#34;&gt;Tool #1: iSAT&lt;/h3&gt;
+
+&lt;p&gt;&amp;ldquo;&lt;a href=&#34;http://www.et.iitb.ac.in/~rwito/iSAT/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;iSAT&lt;/strong&gt;&lt;/a&gt;&amp;ldquo;
+interactive Stratified Attribute Tracking (iSAT) is an online tool that provides interactive visual representations of data that highlight transitions in the dataset. This online tool was created by Ram Karnani, Kavya Alse, and Rwitajit Majumdar.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;https://docs.google.com/presentation/d/1PCzLDY0oJPKfaPWFHFQSdOgeGoECWU1yMkcMjvhE804/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;How to Use iSAT&lt;/a&gt;&amp;rdquo; Follow along with this Google Slides presentation on how to upload and use iSAT&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://www.et.iitb.ac.in/~rwito/iSAT/iSAT.html&#34; target=&#34;_blank&#34;&gt;Use the iSAT tool&lt;/a&gt;&amp;ldquo;
+
+&lt;ul&gt;
+&lt;li&gt;Download the &amp;ldquo;&lt;a href=&#34;https://drive.google.com/file/d/17frF2s0FaFketnBsprTQhz6mQgd_70UH/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;dataset&lt;/a&gt;&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After you are comfortable with using iSAT you can use either of the templates below to create your own dataset to upload&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;https://drive.google.com/file/d/1OYKkvQTOvYhqDnSga-py7w6JfwEFgf0J/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;Template for 3-columns of data&lt;/a&gt;&amp;ldquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;https://drive.google.com/file/d/19oDlnq4AfmeRE7Jxta9OWrT2ii2yaNZe/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;Template for 2-columns of data&lt;/a&gt;&amp;ldquo;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Setting up your dataset&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Target Column: The first column should be Target (the cells below the Target header can be left blank). This column will NOT be read by iSAT.&lt;/li&gt;
+&lt;li&gt;Column Headers: Each column should be labeed with a title. This can be anything that makes sense to you. These columns will be your iSAT phases.&lt;/li&gt;
+&lt;li&gt;Data: Add any data you would like to visualize transitions between, into each column. We suggest using datasets such as pre/post tests. (Data can be numerical or text)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;tool-2-google-data-studio-https-datastudio-google-com-overview&#34;&gt;Tool #2: &lt;a href=&#34;https://datastudio.google.com/overview&#34; target=&#34;_blank&#34;&gt;Google Data Studio&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Visit Google Data Studio and log in with your Google account. Take some time to explore the &lt;em&gt;Welcome to Data Studio&lt;/em&gt; report.&lt;/li&gt;
+&lt;li&gt;Watch the &amp;ldquo;&lt;a href=&#34;https://www.youtube.com/watch?v=6FTUpceqWnc&#34; target=&#34;_blank&#34;&gt;Introduction to Google Data Studio&lt;/a&gt;&amp;rdquo; video for a brief overview.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1McVP_GdlY5_6z8CY2pDnNBgGm-6obFVlx2e4P3yN_z0/copy&#34; target=&#34;_blank&#34;&gt;Add the Hypothesis data to your Google Drive&lt;/a&gt;&amp;ldquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;https://drive.google.com/open?id=1J8C2LO81fay-Xbbjoh-ISMJPH2Hh9_Kr&#34; target=&#34;_blank&#34;&gt;Make a connection&lt;/a&gt;&amp;rdquo; and create a time series.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;https://drive.google.com/open?id=1bTj_hI5h411Ordt_oJZ3B8tvSA0-funA&#34; target=&#34;_blank&#34;&gt;Manage Data&lt;/a&gt;&amp;rdquo; (and adding some toggles)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;https://drive.google.com/open?id=1qRd_YS9VUJTetKV4GW7cZhdY7U80phtw&#34; target=&#34;_blank&#34;&gt;Create a field to calculate replies&lt;/a&gt;&amp;rdquo; (instead of reply levels which is not very useful)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now that you have some of the basics down, explore other types of visualizations (pies, bars, tables, area charts), try changing the style, metrics and fileters. Here is what our group came up with if you would like some inspiration and a beginner&amp;rsquo;s guide:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;&lt;a href=&#34;https://datastudio.google.com/open/1lRxnR5bEwj0JVg9aHPFCPq6-bf08vusW&#34; target=&#34;_blank&#34;&gt;Sample&lt;/a&gt;&amp;ldquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Data Studio for beginners](&lt;a href=&#34;https://www.distilled.net/resources/google-data-studio-the-beginners-tutorial/)&amp;quot;&#34; target=&#34;_blank&#34;&gt;https://www.distilled.net/resources/google-data-studio-the-beginners-tutorial/)&amp;quot;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Please share your visualizations from iSAT and/or Data Studio in Slack. If you get stuck reach out to us on Slack!&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 12: The machine behind the curtain: Text mining, text analytics, and AI</title>
       <link>https://colig.github.io/laumn/post/week12/</link>
       <pubDate>Sun, 18 Nov 2018 00:00:00 -0600</pubDate>

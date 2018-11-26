@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>https://colig.github.io/laumn/post/week13/</loc>
+      <lastmod>2018-11-25T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://colig.github.io/laumn/post/week12/</loc>
       <lastmod>2018-11-18T00:00:00-06:00</lastmod>
     </url>
@@ -302,6 +310,15 @@
     
       <loc>https://colig.github.io/laumn/tags/video/</loc>
       <lastmod>2018-09-11T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://colig.github.io/laumn/tags/visual-analytics/</loc>
+      <lastmod>2018-11-25T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     
