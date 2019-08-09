@@ -7,73 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a Creative Commons Attribution 4.0 International License (CC BY)</copyright>
-    <lastBuildDate>Sun, 16 Sep 2018 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 06 Sep 2018 00:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://colig.github.io/laumn/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Algorithmic Accountability</title>
-      <link>https://colig.github.io/laumn/tags/algorithmic-accountability/</link>
-      <pubDate>Sun, 16 Sep 2018 00:00:00 -0500</pubDate>
-      
-      <guid>https://colig.github.io/laumn/tags/algorithmic-accountability/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cases</title>
-      <link>https://colig.github.io/laumn/tags/cases/</link>
-      <pubDate>Mon, 15 Oct 2018 00:00:00 -0500</pubDate>
-      
-      <guid>https://colig.github.io/laumn/tags/cases/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data</title>
-      <link>https://colig.github.io/laumn/tags/data/</link>
-      <pubDate>Sun, 18 Nov 2018 00:00:00 -0600</pubDate>
-      
-      <guid>https://colig.github.io/laumn/tags/data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Discourse Analytics</title>
-      <link>https://colig.github.io/laumn/tags/discourse-analytics/</link>
-      <pubDate>Thu, 08 Nov 2018 00:00:00 -0600</pubDate>
-      
-      <guid>https://colig.github.io/laumn/tags/discourse-analytics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>EDM</title>
-      <link>https://colig.github.io/laumn/tags/edm/</link>
-      <pubDate>Mon, 08 Oct 2018 00:00:00 -0500</pubDate>
-      
-      <guid>https://colig.github.io/laumn/tags/edm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ethics</title>
-      <link>https://colig.github.io/laumn/tags/ethics/</link>
-      <pubDate>Sun, 16 Sep 2018 00:00:00 -0500</pubDate>
-      
-      <guid>https://colig.github.io/laumn/tags/ethics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Examples</title>
-      <link>https://colig.github.io/laumn/tags/examples/</link>
-      <pubDate>Mon, 15 Oct 2018 00:00:00 -0500</pubDate>
-      
-      <guid>https://colig.github.io/laumn/tags/examples/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Glossary</title>
@@ -85,74 +22,11 @@
     </item>
     
     <item>
-      <title>Introduction</title>
-      <link>https://colig.github.io/laumn/tags/introduction/</link>
-      <pubDate>Wed, 29 Aug 2018 00:00:00 -0500</pubDate>
-      
-      <guid>https://colig.github.io/laumn/tags/introduction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Overview</title>
-      <link>https://colig.github.io/laumn/tags/overview/</link>
-      <pubDate>Mon, 10 Sep 2018 00:00:00 -0500</pubDate>
-      
-      <guid>https://colig.github.io/laumn/tags/overview/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Techniques</title>
-      <link>https://colig.github.io/laumn/tags/techniques/</link>
-      <pubDate>Mon, 08 Oct 2018 00:00:00 -0500</pubDate>
-      
-      <guid>https://colig.github.io/laumn/tags/techniques/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Text Mining</title>
-      <link>https://colig.github.io/laumn/tags/text-mining/</link>
-      <pubDate>Thu, 08 Nov 2018 00:00:00 -0600</pubDate>
-      
-      <guid>https://colig.github.io/laumn/tags/text-mining/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Theory</title>
-      <link>https://colig.github.io/laumn/tags/theory/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 -0500</pubDate>
-      
-      <guid>https://colig.github.io/laumn/tags/theory/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Tools</title>
       <link>https://colig.github.io/laumn/tags/tools/</link>
-      <pubDate>Sun, 18 Nov 2018 00:00:00 -0600</pubDate>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 -0500</pubDate>
       
       <guid>https://colig.github.io/laumn/tags/tools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Video</title>
-      <link>https://colig.github.io/laumn/tags/video/</link>
-      <pubDate>Mon, 10 Sep 2018 00:00:00 -0500</pubDate>
-      
-      <guid>https://colig.github.io/laumn/tags/video/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Visual Analytics</title>
-      <link>https://colig.github.io/laumn/tags/visual-analytics/</link>
-      <pubDate>Sun, 25 Nov 2018 00:00:00 -0600</pubDate>
-      
-      <guid>https://colig.github.io/laumn/tags/visual-analytics/</guid>
       <description></description>
     </item>
     
