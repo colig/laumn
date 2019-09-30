@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a Creative Commons Attribution 4.0 International License (CC BY)</copyright>
-    <lastBuildDate>Mon, 24 Sep 2018 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://colig.github.io/laumn/tags/theory/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Week 5: Hidden Assumptions: Epistemology, Pedagogy, and Assessment</title>
+      <link>https://colig.github.io/laumn/post/week5/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://colig.github.io/laumn/post/week5/</guid>
+      <description>Learning analytics is like an iceberg, with a myriad of assumptions hidden under the water.</description>
+    </item>
     
     <item>
       <title>Week 4: Theory and Learning Analytics</title>
