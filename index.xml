@@ -20,6 +20,55 @@
     </item>
     
     <item>
+      <title>Week 6: Educational Data Mining: An Overview</title>
+      <link>https://colig.github.io/laumn/post/week6/</link>
+      <pubDate>Mon, 08 Oct 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://colig.github.io/laumn/post/week6/</guid>
+      <description>
+
+&lt;p&gt;As a sister field of Learning Analytics, &lt;strong&gt;Educational Data Mining (EDM)&lt;/strong&gt; emerged a few years earlier and has its own disciplinary identity (e.g., a stonger computer science focus, its own &lt;a href=&#34;http://educationaldatamining.org/about/&#34; target=&#34;_blank&#34;&gt;professional society&lt;/a&gt;, &lt;a href=&#34;http://educationaldatamining.org/conferences/&#34; target=&#34;_blank&#34;&gt;conference&lt;/a&gt;, and &lt;a href=&#34;https://jedm.educationaldatamining.org/index.php/JEDM&#34; target=&#34;_blank&#34;&gt;journal&lt;/a&gt;). While two communities developed separately in the beginning, &lt;a href=&#34;http://www.upenn.edu/learninganalytics/ryanbaker/LAKs%20reformatting%20v2.pdf&#34; target=&#34;_blank&#34;&gt;communication and collaboration between two communities (PDF)&lt;/a&gt; have increased over the years.&lt;/p&gt;
+
+&lt;p&gt;The overlaps and differences between two communities are nicely summarized by &lt;a href=&#34;http://journals.sagepub.com/doi/10.1177/0002764213498851&#34; target=&#34;_blank&#34;&gt;Siemens (2013)&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Where LA is more concerned with sensemaking and action, educational data mining  (EDM) is more focused toward developing methods for &amp;ldquo;exploring the unique types of  data that come from educational settings&amp;rdquo;. Although the techniques used are similar  in  both  fields,  EDM  has  a  more  specific  focus  on  reductionist  analysis  (Siemens  &amp;amp;   Baker,  2012).  As  LA  draws  from  and  extends  EDM  methodologies  (Bienkowski,   Feng, &amp;amp; Means, 2012, p. 14), it is a reasonable expectation that the future development  of analytic techniques and tools from both communities will overlap.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We are diving into EDM this week by exploring its connections with LA and playing with various data mining tools used in both communities.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://educationaldatamining.org/EDM_ORG/wp-content/uploads/2017/09/edm.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;week-6-readings&#34;&gt;Week 6 Readings&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Baker, R. S., &amp;amp; Inventado, P. S. (2014). &lt;a href=&#34;https://link-springer-com.ezp1.lib.umn.edu/chapter/10.1007%2F978-1-4614-3305-7_4&#34; target=&#34;_blank&#34;&gt;Educational Data Mining and Learning Analytics&lt;/a&gt;. In J. A. Larusson &amp;amp; B. White (Eds.), Learning Analytics: From Research to Practice (pp. 61–75). New York, NY: Springer New York.&lt;/li&gt;
+&lt;li&gt;Slater, S., Joksimović, S., Kovanovic, V., Baker, R. S., &amp;amp; Gasevic, D. (2017). &lt;a href=&#34;http://journals.sagepub.com/doi/10.3102/1076998616666808&#34; target=&#34;_blank&#34;&gt;Tools for Educational Data Mining: A Review&lt;/a&gt;. Journal of Educational and Behavioral Statistics, 42(1), 85–106.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;As we start to work on our SIGs and WGs, it would be great to think about making &lt;em&gt;some of&lt;/em&gt; your annotations more useful for your group projects. I encourage each group to use your group tag, e.g., &lt;code&gt;#SIG_multimodal&lt;/code&gt;, &lt;code&gt;#WG_recommender_system&lt;/code&gt;. By doing so, we will be able to index our ideas as we continue to engage with all sorts of resources.&lt;/p&gt;
+
+&lt;p&gt;Note: These tags need to used accurately (e.g. spaces and caps matter) in order to be nicely aggregated by Hypothes.is.&lt;/p&gt;
+
+&lt;h2 id=&#34;housekeeping&#34;&gt;Housekeeping&lt;/h2&gt;
+
+&lt;h3 id=&#34;projects&#34;&gt;Projects&lt;/h3&gt;
+
+&lt;p&gt;Since we&amp;rsquo;ve finalized &lt;strong&gt;our Working Group and Special Interest Group plans&lt;/strong&gt;, please create channels on Slack, invite group members in, and create group workspaces on Knowledge Forum (KF).&lt;/p&gt;
+
+&lt;p&gt;Let the party begin!&lt;/p&gt;
+
+&lt;h3 id=&#34;next-meetings&#34;&gt;Next meetings&lt;/h3&gt;
+
+&lt;p&gt;I strongly encourage you attend the &lt;strong&gt;Inaugural Learning Informatics Seminar on Oct 23&lt;/strong&gt;, featuring Simon Buckingham Shum.  &lt;a href=&#34;http://z.umn.edu/learning-info&#34; target=&#34;_blank&#34;&gt;RSVP here&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;Our next virtual meeting will take place on &lt;strong&gt;Monday, Oct 28, 5-6:30pm&lt;/strong&gt; via Zoom. You should have received a Calendar invitation with details.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://thumbs.gfycat.com/WeakAnyBallpython-size_restricted.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 5: Hidden Assumptions: Epistemology, Pedagogy, and Assessment</title>
       <link>https://colig.github.io/laumn/post/week5/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 -0500</pubDate>
