@@ -20,6 +20,136 @@
     </item>
     
     <item>
+      <title>Week 7: Cases and Examples of Learning Analytics</title>
+      <link>https://colig.github.io/laumn/post/week7/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://colig.github.io/laumn/post/week7/</guid>
+      <description>
+
+&lt;p&gt;Over the past few weeks, we have explored multiple dimensions of Learning Analytics &amp;ndash; &lt;em&gt;ethical&lt;/em&gt;, &lt;em&gt;epistemological&lt;/em&gt;, &lt;em&gt;conceptual/theoretical&lt;/em&gt;, &lt;em&gt;pedagogical&lt;/em&gt;, &lt;em&gt;technical&lt;/em&gt; &amp;ndash; and have devleoped nuanced understanding of this field.  Bringing together perspectives from distinctive disciplines into meaningful conversations takes time. I&amp;rsquo;m proud of our collective work so far in the community!&lt;/p&gt;
+
+&lt;h2 id=&#34;week-7-plan-and-resources&#34;&gt;Week 7 Plan and Resources&lt;/h2&gt;
+
+&lt;p&gt;This week, we will make use of what we&amp;rsquo;ve learned so far &lt;strong&gt;to identify and analyze cases/examples of learning analytics applications&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;two-talks&#34;&gt;Two talks&lt;/h3&gt;
+
+&lt;p&gt;Before we dive into identifying and analyzing cases, I want to share two talks that are related to this week and the projects you are working on.&lt;/p&gt;
+
+&lt;p&gt;The first talk was given by &lt;strong&gt;Prof. &lt;a href=&#34;https://www.si.umich.edu/people/stephanie-teasley&#34; target=&#34;_blank&#34;&gt;Stephanie Teasley&lt;/a&gt;&lt;/strong&gt; from the University of Michigan, a powerhouse of learning analytics research &amp;amp; practice. She is a past president of SoLAR and has been leading various learning analytics efforts at UMich, including the &lt;strong&gt;&lt;em&gt;My Learning Analytics (MyLA)&lt;/em&gt;&lt;/strong&gt; project to be rolled out at UMN. Her talk, titled &amp;ldquo;&lt;strong&gt;Learning Analytics: Data Science for Education&lt;/strong&gt;&amp;rdquo;, covers many grounds including analytics tool design and evaluation.&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/w3u_Cv7bUHU&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The second talk was an &lt;em&gt;ACM TechTalk&lt;/em&gt; delivered by &lt;strong&gt;Prof. &lt;a href=&#34;http://konstan.umn.edu/&#34; target=&#34;_blank&#34;&gt;Joseph Konstan&lt;/a&gt;&lt;/strong&gt; from our own University of Minnesota. This talk, titled &amp;ldquo;&lt;strong&gt;Recommender Systems: Beyond Machine Learning&lt;/strong&gt;&amp;rdquo;, is more technical and of special interest to those of you interested in adaptive learning and educational recommender systems. Below are the slides [in PDF]. To watch the talk, you will need to fill out the registration form near the bottom of &lt;a href=&#34;https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;amp;referrer=&amp;amp;eventid=2087659&amp;amp;sessionid=1&amp;amp;key=0321266D048A6229BB85D34C4BB1FC66&amp;amp;regTag=&amp;amp;sourcepage=register&#34; target=&#34;_blank&#34;&gt;this ACM page&lt;/a&gt;, which will direct you to a recorded webinar.&lt;/p&gt;
+
+&lt;iframe src=&#34;https://on24static.akamaized.net/event/20/87/65/9/rt/1/documents/resourceList1554302303966/recommendersystemsbeyondmlslides1570559476436.pdf&#34; width=&#34;100%&#34; height=&#34;480px&#34;&gt;
+&lt;/iframe&gt;
+
+&lt;h3 id=&#34;case-analysis&#34;&gt;Case analysis&lt;/h3&gt;
+
+&lt;p&gt;After watching these videos, please conduct a learning analytics &lt;em&gt;case analysis&lt;/em&gt; following these two main steps.&lt;/p&gt;
+
+&lt;h4 id=&#34;1-identify&#34;&gt;1: Identify&lt;/h4&gt;
+
+&lt;p&gt;Ideally, you will &lt;strong&gt;identify minimally one case/example&lt;/strong&gt; pertinent to your Working Group project.&lt;/p&gt;
+
+&lt;p&gt;I am providing only a few examples below but you should absolutely go beyond this list.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Course Signals: &lt;a href=&#34;https://er.educause.edu/articles/2010/3/signals-applying-academic-analytics&#34; target=&#34;_blank&#34;&gt;EDUCAUSE article&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/watch?v=kURsmrkdS04&#34; target=&#34;_blank&#34;&gt;LAK12 video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ECoach: &lt;a href=&#34;http://ai.umich.edu/portfolio/e-coach/&#34; target=&#34;_blank&#34;&gt;http://ai.umich.edu/portfolio/e-coach/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Academic Writing Analytics: &lt;a href=&#34;https://utscic.edu.au/tools/awa/&#34; target=&#34;_blank&#34;&gt;https://utscic.edu.au/tools/awa/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;My Learning Analytics (MyLA): &lt;a href=&#34;https://sites.google.com/umich.edu/my-learning-analytics-help/home&#34; target=&#34;_blank&#34;&gt;https://sites.google.com/umich.edu/my-learning-analytics-help/home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Yellowdig visualization tool: &lt;a href=&#34;https://vimeo.com/169580885&#34; target=&#34;_blank&#34;&gt;https://vimeo.com/169580885&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;2-analyze&#34;&gt;2. Analyze&lt;/h4&gt;
+
+&lt;p&gt;When analyzing a case/example, please consider the following aspects:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;em&gt;Aspects of the project&lt;/em&gt;&lt;/th&gt;
+&lt;th&gt;&lt;em&gt;Your analysis&lt;/em&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Name and links&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Context and stakeholders&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Project goals&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Learning constructs&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Data sources&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Data analysis/mining techniques&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Actions suggested or taken&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Ethical considerations&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;To contribute your analysis, please &lt;strong&gt;make a Hypothesis &lt;code&gt;Page Note&lt;/code&gt; on a webpage about the analyzed case/example&lt;/strong&gt;. Not sure how to make a Page Note? See the screenshot below or the &lt;a href=&#34;https://web.hypothes.is/help/quick-start-guide/&#34; target=&#34;_blank&#34;&gt;help page&lt;/a&gt; for details. Of course, you can make regular Hypothesis annotations as well when engaging with the web document. As always, &lt;strong&gt;you are strongly encouraged to use &lt;code&gt;WG&lt;/code&gt; or &lt;code&gt;SIG&lt;/code&gt; related tags&lt;/strong&gt; so that your annotations are informing your evolving projects. You are also encouraged to comment on each other&amp;rsquo;s analysis.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://d242fdlp0qlcia.cloudfront.net/uploads/2018/03/05122242/new_page_note.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Pro Tip&lt;/em&gt;: You can copy-and-paste the &lt;a href=&#34;https://en.wikipedia.org/wiki/Markdown&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; code below to make a table in your annotation. The number of characters betwee each pair of &lt;code&gt;|&lt;/code&gt;s won&amp;rsquo;t matter.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;| Aspects of the project/application | Analysis |
+|------------------------------------|----------|
+| Name and links                     |          |
+| Context and stakeholders           |          |
+| Project goals                      |          |
+| Learning constructs                |          |
+| Data sources                       |          |
+| Data analysis/mining techniques    |          |
+| Actions taken or suggested         |          |
+| Ethical considerations             |          |
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;housekeeping-for-formal-participation&#34;&gt;Housekeeping for Formal Participation&lt;/h2&gt;
+
+&lt;p&gt;Since we&amp;rsquo;ve finalized our &lt;strong&gt;Working Group and Special Interest Group plans&lt;/strong&gt;, please make use of Knowledge Forum, Slack channels, and other collaboration tools to coordinate with each other.&lt;/p&gt;
+
+&lt;p&gt;Group project is never easy! &lt;a href=&#34;https://teamwork.umn.edu/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;UMN has some very useful tips&lt;/strong&gt; to make sure your group project will not look like &amp;ldquo;the zombie apocalypse&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Have a great week!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/Y8TIkyxj0F2KY/giphy.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 6: Educational Data Mining: An Overview</title>
       <link>https://colig.github.io/laumn/post/week6/</link>
       <pubDate>Mon, 08 Oct 2018 00:00:00 -0500</pubDate>
