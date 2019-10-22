@@ -20,6 +20,116 @@
     </item>
     
     <item>
+      <title>Week 8: &#39;All About Data,&#39; Data Wrangling</title>
+      <link>https://colig.github.io/laumn/post/week8/</link>
+      <pubDate>Mon, 22 Oct 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://colig.github.io/laumn/post/week8/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Data wrangling&lt;/strong&gt;, or data munging, is a critical part of any learning analytics project. It covers multiple components of the &lt;em&gt;Learning Analytics Model&lt;/em&gt; including the collection, storage, cleaning, and integration of data (see Siemens 2013, which we read in &lt;a href=&#34;https://colig.github.io/laumn/post/week1/&#34; target=&#34;_blank&#34;&gt;Week 1&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://c1.staticflickr.com/3/2814/9662456144_51b12d6057_b.jpg&#34; alt=&#34;LA Model by Siemens&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Due to the quantity of data and the diversity of data sources, a learning analytics project often necessicitates data wrangling &amp;ndash; conducted by humans &amp;ndash; in order to transform data into actionable intelligence and systematic action (&lt;a href=&#34;https://dl.acm.org/citation.cfm?doid=2567574.2567603&#34; target=&#34;_blank&#34;&gt;Clow, 2012&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;This week, we will:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Familiarzie with the concept of data wrangling&lt;/li&gt;
+&lt;li&gt;Play with at least one data-wrangling tool of your choice&lt;/li&gt;
+&lt;li&gt;Share your data-wranglinge experiences with peers&lt;/li&gt;
+&lt;li&gt;Draft a data-wrangling plan with your Working Group members&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;what-is-data-wrangling&#34;&gt;What is data wrangling?&lt;/h2&gt;
+
+&lt;p&gt;According to &lt;a href=&#34;https://en.wikipedia.org/wiki/Data_wrangling&#34; target=&#34;_blank&#34;&gt;Wikipedia&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Data wrangling&lt;/strong&gt;, sometimes referred to as data munging, is the process of transforming and mapping data from one &amp;ldquo;raw&amp;rdquo; data form into another format with the intent of making it more appropriate and valuable for a variety of downstream purposes such as analytics. A &lt;strong&gt;data wrangler&lt;/strong&gt; is a person who performs these transformation operations.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Over the past years, I have seen polls of data scientists (like &lt;a href=&#34;https://www.forbes.com/sites/gilpress/2016/03/23/data-preparation-most-time-consuming-least-enjoyable-data-science-task-survey-says/#4d660d346f63&#34; target=&#34;_blank&#34;&gt;this one&lt;/a&gt;) showing they spend 60% of their time &amp;lsquo;massaging&amp;rsquo; instead of analyzing data. This percentage may even go up to 80-90% &lt;a href=&#34;https://www.infoworld.com/article/3228245/data-science/the-80-20-data-science-dilemma.html&#34; target=&#34;_blank&#34;&gt;in some reports&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!-- ![](https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fgilpress%2Ffiles%2F2016%2F03%2FTime-1200x511.jpg) --&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;“90% of data science is wrangling data, the other 10% is complaining about wrangling data.”&lt;a href=&#34;https://twitter.com/evelgab?ref_src=twsrc%5Etfw&#34;&gt;@evelgab&lt;/a&gt; at &lt;a href=&#34;https://twitter.com/hashtag/rstatsnyc?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstatsnyc&lt;/a&gt;&lt;/p&gt;&amp;mdash; David Robinson (@drob) &lt;a href=&#34;https://twitter.com/drob/status/987436677026254848?ref_src=twsrc%5Etfw&#34;&gt;April 20, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;!-- ![](https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fgilpress%2Ffiles%2F2016%2F03%2FLeast-Enjoyable4-1200x511.jpg) --&gt;
+
+&lt;h2 id=&#34;plan-and-resources-this-week&#34;&gt;Plan and Resources This Week&lt;/h2&gt;
+
+&lt;p&gt;As each Working Group project starts to take shape, this week provides each group an opportunity to &lt;strong&gt;consider the data aspect&lt;/strong&gt; and &lt;strong&gt;draft a Data Wrangling plan&lt;/strong&gt; for the project.&lt;/p&gt;
+
+&lt;p&gt;Below are activities designed for this week.&lt;/p&gt;
+
+&lt;h3 id=&#34;1-watch-a-lecture-on-data-wrangling&#34;&gt;1. Watch a lecture on data wrangling&lt;/h3&gt;
+
+&lt;p&gt;This lecture was delivered by &lt;a href=&#34;https://blog.ouseful.info/about/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Tony Hirst&lt;/strong&gt;&lt;/a&gt; to the &lt;a href=&#34;https://www.edx.org/course/data-analytics-learning-utarlingtonx-link5-10x&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Data, Analytics and Learning&lt;/em&gt; MOOC&lt;/a&gt; in 2014. Tony is an active blogger, and &lt;a href=&#34;https://blog.ouseful.info/&#34; target=&#34;_blank&#34;&gt;his blog&lt;/a&gt; has always been a great source of inspiration for me.&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/wszwwbWftUs&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&#34;2-play-with-one-data-wranging-tool-of-your-choice&#34;&gt;2. Play with one data wranging tool of your choice&lt;/h3&gt;
+
+&lt;p&gt;Our choices include &amp;ndash; but are not limited to &amp;ndash; the following:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Spreadsheets&lt;/strong&gt;. Yes, spreadsheets (e.g. Excel, Google Sheets) are incredibly powerful when it comes to data wrangling. Below are two tutorials that may help you unleash the power of spreadsheets.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://schoolofdata.org/courses/#IntroDataCleaning&#34; target=&#34;_blank&#34;&gt;School of Data: A Gentle Introduction to Data Cleaning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.datacarpentry.org/spreadsheet-ecology-lesson/&#34; target=&#34;_blank&#34;&gt;Data Carpentry: Data Organization in Spreadsheets&lt;/a&gt;
+&lt;!-- - [School of Data Handbook: Using a spreadsheet to clean up a dataset](https://datapatterns.readthedocs.org/en/latest/recipes/cleaning-data-with-spreadsheets.html) --&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;OpenRefine&lt;/strong&gt;, formerly Google Refine, &amp;ldquo;is a powerful tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data.&amp;rdquo; &lt;a href=&#34;http://openrefine.org/&#34; target=&#34;_blank&#34;&gt;Its official website&lt;/a&gt; provides several introductory videos to get you started. There is &lt;a href=&#34;https://datacarpentry.org/openrefine-socialsci/&#34; target=&#34;_blank&#34;&gt;a Data Capentry course on OpenRefine for Social Science Data&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dataiku Data Science Studio (&lt;a href=&#34;https://www.dataiku.com/dss/index.html&#34; target=&#34;_blank&#34;&gt;DSS&lt;/a&gt;)&lt;/strong&gt;. A data science workbench that provides a Graphical User Interface (GUI) similar to OpenRefine. I&amp;rsquo;ve recorded a tutorial video (of an earlier version) to demonstrate its usefulness for data wrangling. &lt;a href=&#34;https://www.dataiku.com/learn/guide/tutorials/basics.html&#34; target=&#34;_blank&#34;&gt;More tutorials&lt;/a&gt; can be found on its official website.&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/uNYrjeoPFGU&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;R and RStudio&lt;/strong&gt;. If you know R basics, I strongly encourage you to spend some time on the &lt;code&gt;tidyverse&lt;/code&gt; ecosystem. It has absolutely transformed my data wrangling practices in R.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/resources/webinars/data-wrangling-with-r-and-rstudio/&#34; target=&#34;_blank&#34;&gt;RStudio webinar on data wrangling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.lynda.com/R-tutorials/Data-Wrangling-R/594442-2.html&#34; target=&#34;_blank&#34;&gt;Lynda.com course on Data wrangling with R and RStudio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Python&lt;/strong&gt;, another popular programming language among data scientists. There are plenty of tutorioals out there. Below are just two examples.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/wrangling-data-with-pandas-27ef828aff01&#34; target=&#34;_blank&#34;&gt;Wrangling data with &lt;code&gt;Pandas&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/ibm-watson-data-lab/wrangle-data-in-jupyter-notebooks-with-pixiedust-rosie-7d9ac1129925&#34; target=&#34;_blank&#34;&gt;Wrangle Data in Jupyter Notebooks with &lt;code&gt;PixieDust Rosie&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This list is by no means exhaustive or comprehensive. &lt;strong&gt;Is there a data wrangling tool you like? Let us know by leaving a Hypothesis annotation here!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-share-your-journey-as-a-data-wrangler-via-slack&#34;&gt;3. Share your journey as a Data Wrangler via Slack&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/SuccessKid.jpg/256px-SuccessKid.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Yes, we can do it!  How did your journey go? Have you discovered your data-wrangling superpower? Share a blurb about your journey in the &lt;code&gt;#2019-general&lt;/code&gt; channel of Slack. If you choose to blog your experience, please post a link to your blog post to the &lt;code&gt;#2019-general&lt;/code&gt; Slack channel.&lt;/p&gt;
+
+&lt;p&gt;If you encounter data wrangling challenges, please also feel free to share on Slack so that we can problem solve together.&lt;/p&gt;
+
+&lt;h3 id=&#34;4-discuss-a-data-wrangling-plan-with-your-working-group&#34;&gt;4. Discuss a data-wrangling plan with your Working Group&lt;/h3&gt;
+
+&lt;p&gt;What implications does this week&amp;rsquo;s work have on your Working Group project? Discuss with your group members anywhere you like (e.g. Slack,F2F, Zoom). Please add your data-wrangling ideas to your project space on Knowledge Forum.&lt;/p&gt;
+
+&lt;h2 id=&#34;housekeeping-for-formal-participation&#34;&gt;Housekeeping for Formal Participation&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Our next Zoom meeting is on Oct 28.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The first SIG Session will happen on Nov 4.&lt;/strong&gt; Details will be posted on Oct 29.&lt;/p&gt;
+
+&lt;p&gt;Enjoy digging and wrangling!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://gif-finder.com/wp-content/uploads/2016/06/Dog-Digging.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 7: Cases and Examples of Learning Analytics</title>
       <link>https://colig.github.io/laumn/post/week7/</link>
       <pubDate>Mon, 15 Oct 2018 00:00:00 -0500</pubDate>
