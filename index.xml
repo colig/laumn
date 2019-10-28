@@ -98,7 +98,7 @@
 
 &lt;h4 id=&#34;3-1-data-wrangling-challenge&#34;&gt;3.1. Data wrangling challenge&lt;/h4&gt;
 
-&lt;p&gt;First, use the &lt;a href=&#34;https://jonudell.info/h/facet/&#34; target=&#34;_blank&#34;&gt;Hypothesis data exporting tool&lt;/a&gt; to extract some sample data from our group. Please choose the CSV format as it is the most helpful format for this activity.&lt;/p&gt;
+&lt;p&gt;First, use the &lt;a href=&#34;https://jonudell.info/h/facet/&#34; target=&#34;_blank&#34;&gt;Hypothesis data exporting tool&lt;/a&gt; to extract some sample data from our group. You will need to access your API token &lt;a href=&#34;https://hypothes.is/account/developer&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; if you wish to export data from your private groups. Please choose the &lt;code&gt;CSV&lt;/code&gt; format as it is the most helpful format for this activity.&lt;/p&gt;
 
 &lt;p&gt;Transform the exported data to a format that works for Gephi or a tool of your choice. Consult with the first reading and Gephi tutorials for information about acceptable formats.&lt;/p&gt;
 
@@ -201,6 +201,8 @@
 &lt;/ul&gt;
 
 &lt;p&gt;This list is by no means exhaustive or comprehensive. &lt;strong&gt;Is there a data wrangling tool you like? Let us know by leaving a Hypothesis annotation here!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, check out the &lt;a href=&#34;https://datacarpentry.org/lessons/#social-science-curriculum&#34; target=&#34;_blank&#34;&gt;Data Carpentry&lt;/a&gt; website that offers a range of lessons and workshops that you may find useful.&lt;/p&gt;
 
 &lt;h3 id=&#34;3-share-your-journey-as-a-data-wrangler-via-slack&#34;&gt;3. Share your journey as a Data Wrangler via Slack&lt;/h3&gt;
 
