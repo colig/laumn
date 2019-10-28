@@ -20,6 +20,103 @@
     </item>
     
     <item>
+      <title>Week 9: Social Networks (SIG 1)</title>
+      <link>https://colig.github.io/laumn/post/week9/</link>
+      <pubDate>Sun, 28 Oct 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://colig.github.io/laumn/post/week9/</guid>
+      <description>
+
+&lt;p&gt;This week, we will be diving into Social Network Analysis as an approach to studying the exchange of information. Social network analysis looks at various patterns of relationships between different actors and examines the availability and exchange of resources between them (Scott, 1991; Wasserman &amp;amp; Faust, 1994). The actors exchanging resources and information could be individuals or organizations and their relationships determine the kind of information exchanged.&lt;/p&gt;
+
+&lt;p&gt;Here is a short video to help you through the definition of social network analysis better.&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/xT3EpF2EsbQ&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;!-- ![](https://cdn-images-1.medium.com/max/1600/1*2rOTpI5RyI8V-mMRfCv_fw.png) --&gt;
+
+&lt;h2 id=&#34;plan-and-resources-this-week&#34;&gt;Plan and Resources this Week:&lt;/h2&gt;
+
+&lt;h3 id=&#34;1-read-annotate&#34;&gt;1. Read &amp;amp; annotate&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.lifescied.org/doi/10.1187/cbe.13-08-0162&#34; target=&#34;_blank&#34;&gt;Grunspan et al. (2017)&lt;/a&gt;. A primer that introduces how an SNA research project can be done in education.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://colig.github.io/laumn/laumn/files/chen-et-al-2018.pdf&#34;&gt;Chen et al. (2018)&lt;/a&gt;. A case study of building an analytic tool based on SNA for student sense-making.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Consider the following questions as you read the articles about SNA:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What are the key elements of an SNA project based on the Grunspan et al. (2017) article?&lt;/li&gt;
+&lt;li&gt;What tools do you notice the authors using for SNA?&lt;/li&gt;
+&lt;li&gt;What considerations are needed when applying SNA in teaching practice?&lt;/li&gt;
+&lt;li&gt;How do you see SNA being of use to your WG project?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As we continue to work on WG projects, please keep in mind your group tags when annotating. By doing so, we will be able to index our ideas as we continue to engage with all sorts of resources.&lt;/p&gt;
+
+&lt;h3 id=&#34;2-explore-social-network-analysis-tools&#34;&gt;2. Explore social network analysis tools&lt;/h3&gt;
+
+&lt;h4 id=&#34;gephi&#34;&gt;Gephi&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Gephi&#34; target=&#34;_blank&#34;&gt;Gephi&lt;/a&gt;&lt;/strong&gt; is an open-source network analysis tool based on Java. To explore Gephi, check out one or more of the following resources:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gephi.org/&#34; target=&#34;_blank&#34;&gt;Gephi.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Overview of Gephi
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=2FqM4gKeNO4&#34; target=&#34;_blank&#34;&gt;Gephi: Making your relational data very pretty&lt;/a&gt; &amp;ndash; This tutorial is kind of long, but it uses sample data to explore many of the features of Gephi.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.briansarnacki.com/gephi-tutorial/&#34; target=&#34;_blank&#34;&gt;The Complete n00b’s Guide to Gephi&lt;/a&gt; &amp;ndash; This article breaks down how to start using Gephi. It’s a nice simple resource to get started.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Download Gephi (from gephi.org) and explore the features it has. The download comes with sample data using characters from &lt;em&gt;Les Miserables&lt;/em&gt;. The video tutorial linked above uses that data to demonstrate many of the features of Gephi. If you’re unable to use Gephi on your personal computer, you might consider connecting with a classmate who is able to use it successfully. &lt;em&gt;Note&lt;/em&gt;: You may need to download/update Java on your computer.&lt;/p&gt;
+
+&lt;p&gt;If you have any issues or questions as you’re exploring this tool, please reach out to your colleagues on Slack.&lt;/p&gt;
+
+&lt;h4 id=&#34;r-or-python&#34;&gt;R or Python&lt;/h4&gt;
+
+&lt;p&gt;If &lt;strong&gt;R&lt;/strong&gt; is your go-to &amp;ldquo;Swiss Army knife&amp;rdquo; for data analysis, check out one of the packages such as &lt;strong&gt;&lt;a href=&#34;https://igraph.org/r/&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;igraph&lt;/code&gt;&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;code&gt;sna&lt;/code&gt;&lt;/strong&gt;, and &lt;strong&gt;&lt;a href=&#34;http://www.statnet.org/&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;statanet&lt;/code&gt;&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you prefer &lt;strong&gt;Python&lt;/strong&gt;, check out &lt;strong&gt;&lt;a href=&#34;https://networkx.github.io/&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;networkx&lt;/code&gt;&lt;/a&gt;&lt;/strong&gt; or &lt;strong&gt;&lt;a href=&#34;https://igraph.org/python/&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;igraph&lt;/code&gt;&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;other-network-analysis-tools&#34;&gt;Other network analysis tools&lt;/h4&gt;
+
+&lt;p&gt;Some of you have taken my SNA class (CI 8371) and please consider exploring other novel network analysis tools.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Using Gephi, you can &lt;a href=&#34;https://seinecle.github.io/gephi-tutorials/generated-html/converting-a-network-with-dates-into-dynamic.html&#34; target=&#34;_blank&#34;&gt;analyze dynamic networks&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.epistemicnetwork.org/&#34; target=&#34;_blank&#34;&gt;Epistemic Network Analysis&lt;/a&gt; (ENA) is a method for identifying and quantifying connections among elements in coded data and representing them in dynamic network models. A key feature of the ENA tool is that it enables researchers compare different networks, both visually and through summary statistics that reflect the weighted structure of connections.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/statnet/ergm&#34; target=&#34;_blank&#34;&gt;Exponential random graph models (ERGMs)&lt;/a&gt; is a family of statistical models for analyzing networks . See &lt;a href=&#34;https://statnet.org/trac/raw-attachment/wiki/Sunbelt2016/ergm_tutorial.html&#34; target=&#34;_blank&#34;&gt;tutorial&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;statnet&lt;/code&gt; provides a suite of packages for analyzing temporal networks. See &lt;a href=&#34;http://statnet.csde.washington.edu/workshops/SUNBELT/current/ndtv/ndtv_workshop.html&#34; target=&#34;_blank&#34;&gt;tutorial&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.giphy.com/media/l2YWSmwWULoAw/giphy.webp&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-use-data-from-hypothes-is-annotations-to-make-a-visualization&#34;&gt;3. Use data from Hypothes.is annotations to make a visualization&lt;/h3&gt;
+
+&lt;h4 id=&#34;3-1-data-wrangling-challenge&#34;&gt;3.1. Data wrangling challenge&lt;/h4&gt;
+
+&lt;p&gt;First, use the &lt;a href=&#34;https://jonudell.info/h/facet/&#34; target=&#34;_blank&#34;&gt;Hypothesis data exporting tool&lt;/a&gt; to extract some sample data from our group. Please choose the CSV format as it is the most helpful format for this activity.&lt;/p&gt;
+
+&lt;p&gt;Transform the exported data to a format that works for Gephi or a tool of your choice. Consult with the first reading and Gephi tutorials for information about acceptable formats.&lt;/p&gt;
+
+&lt;p&gt;Please feel free to share your cleaned data on Slack and to help each other.&lt;/p&gt;
+
+&lt;h4 id=&#34;3-2-network-analysis-challenge&#34;&gt;3.2. Network analysis challenge&lt;/h4&gt;
+
+&lt;p&gt;Import the data into Gephi (or a tool of your choice) and create a visualization of our interactions.&lt;/p&gt;
+
+&lt;p&gt;You can also play with other functions such as computing centrality measures and detecting communities in our group.&lt;/p&gt;
+
+&lt;p&gt;Be prepared to share your adventures during our Zoom meeting on &lt;strong&gt;Monday, November 4th&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.giphy.com/media/l0IylOPCNkiqOgMyA/giphy.webp&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Week 8: &#39;All About Data,&#39; Data Wrangling</title>
       <link>https://colig.github.io/laumn/post/week8/</link>
       <pubDate>Mon, 22 Oct 2018 00:00:00 -0500</pubDate>
