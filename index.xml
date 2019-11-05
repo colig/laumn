@@ -6,8 +6,79 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a Creative Commons Attribution 4.0 International License (CC BY)</copyright>
-    <lastBuildDate>Fri, 06 Sep 2019 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2019 00:00:00 -0600</lastBuildDate>
     <atom:link href="/laumn/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Week 10: Content and Text Analytics (SIG 2)</title>
+      <link>https://colig.github.io/laumn/post/week10/</link>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 -0600</pubDate>
+      
+      <guid>https://colig.github.io/laumn/post/week10/</guid>
+      <description>
+
+&lt;!-- [header]
+image = &#34;https://images.pexels.com/photos/261763/pexels-photo-261763.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260&#34;
+caption = &#34;Image credit: [**pixabay**](https://www.pexels.com/photo/abstract-black-and-white-blur-book-261763/)&#34; --&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://colig.github.io/laumn/laumn/img/image_0.png&#34; alt=&#34;image alt text&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;1-read-and-annotate&#34;&gt;1. &lt;strong&gt;Read and annotate&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Read an introductory paper on Text/Discourse analytics to familiarize yourself with the topic.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.solaresearch.org/wp-content/uploads/2017/05/chapter7.pdf&#34; target=&#34;_blank&#34;&gt;Chapter 7: Content analytics&lt;/a&gt;: The definition, scope, and an overview of published research&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When you read this chapter, annotate anything that will be helpful to you. Consider: What aspect or finding from this article could you possibly bring to and incorporate in your project or work place?&lt;/p&gt;
+
+&lt;h2 id=&#34;2-introductory-video&#34;&gt;2. &lt;strong&gt;Introductory video&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Here is a short video to introduce you to text mining.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://campus.datacamp.com/courses/intro-to-text-mining-bag-of-words/jumping-into-text-mining-with-bag-of-words?ex=1&#34; target=&#34;_blank&#34;&gt;What is text mining?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;3-more-reading&#34;&gt;3. &lt;strong&gt;More reading&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Choose one of the two readings to read and annotate.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1) &lt;a href=&#34;https://journals-sagepub-com.ezp3.lib.umn.edu/doi/pdf/10.1177/0049124117729703&#34; target=&#34;_blank&#34;&gt;Computational Grounded Theory: A Methodological Framework&lt;/a&gt; (in PDF)&lt;/li&gt;
+&lt;li&gt;2) &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1756-8765.2010.01117.x&#34; target=&#34;_blank&#34;&gt;Computational Methods to Extract Meaning From Text and Advance Theories of Human Cognition&lt;/a&gt; (in PDF)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When reading the article, think about how content analysis mentioned in this article be used in your working group project.  Specifically, how could content an alysis be used in your working group project?&lt;/p&gt;
+
+&lt;h2 id=&#34;4-application&#34;&gt;4. &lt;strong&gt;Application&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Choose a text analysis tool to analyze our Hypotheses annotations. It could be annotations from one week, one person, a SIG or WG, etc. Please share your findings, learning journey, or challenges on Slack.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://utscic.edu.au/tools/awa/&#34; target=&#34;_blank&#34;&gt;AcaWriter&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.memphis.edu/iis/projects/coh-metrix.php&#34; target=&#34;_blank&#34;&gt;Cohmetrix&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://liwc.wpengine.com/&#34; target=&#34;_blank&#34;&gt;LIWC&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://khcoder.net/en/?utm_source=PredictiveAnalyticsToday&amp;amp;utm_medium=Review&amp;amp;utm_campaign=PAT&#34; target=&#34;_blank&#34;&gt;KH coder 3&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://colig.github.io/laumn/laumn/img/image_1.png&#34; alt=&#34;image alt text&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://cloud.google.com/natural-language/&#34; target=&#34;_blank&#34;&gt;Google Cloud Natural Language API&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://campus.datacamp.com/courses/intro-to-text-mining-bag-of-words/jumping-into-text-mining-with-bag-of-words?ex=3&#34; target=&#34;_blank&#34;&gt;qdap&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;See you all in Zoom on &lt;strong&gt;Monday, November 11th&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://colig.github.io/laumn/laumn/img/image_2.png&#34; alt=&#34;image alt text&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Glossary</title>

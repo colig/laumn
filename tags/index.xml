@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a Creative Commons Attribution 4.0 International License (CC BY)</copyright>
-    <lastBuildDate>Fri, 06 Sep 2019 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2019 00:00:00 -0600</lastBuildDate>
     
 	<atom:link href="https://colig.github.io/laumn/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Discourse Analytics</title>
+      <link>https://colig.github.io/laumn/tags/discourse-analytics/</link>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 -0600</pubDate>
+      
+      <guid>https://colig.github.io/laumn/tags/discourse-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Text Mining</title>
+      <link>https://colig.github.io/laumn/tags/text-mining/</link>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 -0600</pubDate>
+      
+      <guid>https://colig.github.io/laumn/tags/text-mining/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Glossary</title>

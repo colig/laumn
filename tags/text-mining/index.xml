@@ -7,19 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a Creative Commons Attribution 4.0 International License (CC BY)</copyright>
-    <lastBuildDate>Thu, 08 Nov 2018 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2019 00:00:00 -0600</lastBuildDate>
     
 	<atom:link href="https://colig.github.io/laumn/tags/text-mining/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Week 11: Text and Discourse Analytics (SIG 3)</title>
-      <link>https://colig.github.io/laumn/post/week11/</link>
-      <pubDate>Thu, 08 Nov 2018 00:00:00 -0600</pubDate>
+      <title>Week 10: Content and Text Analytics (SIG 2)</title>
+      <link>https://colig.github.io/laumn/post/week10/</link>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 -0600</pubDate>
       
-      <guid>https://colig.github.io/laumn/post/week11/</guid>
-      <description>1. Read and annotate “Chapter 7: Content Analytics: The Definition, Scope, and an Overview of Published Research” (Kovanović et al., 2017) from Handbook of Learning Analytics.
-We recommend reading this article first, as it provides a nice introduction to the area of text/content analytics as part of the larger LA field. The authors also give an overview of several important studies that have implications for the future of content analytics.</description>
+      <guid>https://colig.github.io/laumn/post/week10/</guid>
+      <description>SIG 2 on Text and Discourse Analytics.</description>
     </item>
     
   </channel>
