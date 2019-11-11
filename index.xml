@@ -6,8 +6,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a Creative Commons Attribution 4.0 International License (CC BY)</copyright>
-    <lastBuildDate>Mon, 04 Nov 2019 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 10 Nov 2019 00:00:00 -0600</lastBuildDate>
     <atom:link href="/laumn/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>SIG3: Multimodal Learning Analytics</title>
+      <link>https://colig.github.io/laumn/post/week11/</link>
+      <pubDate>Sun, 10 Nov 2019 00:00:00 -0600</pubDate>
+      
+      <guid>https://colig.github.io/laumn/post/week11/</guid>
+      <description>&lt;p&gt;Please visit &lt;a href=&#34;https://sites.google.com/umn.edu/ci-5371-multimodal-analytics/home&#34; target=&#34;_blank&#34;&gt;the SIG 3 Google Site&lt;/a&gt; to get started!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Week 10: Content and Text Analytics (SIG 2)</title>
