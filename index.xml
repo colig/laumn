@@ -6,8 +6,78 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a Creative Commons Attribution 4.0 International License (CC BY)</copyright>
-    <lastBuildDate>Sun, 10 Nov 2019 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 17 Nov 2019 00:00:00 -0600</lastBuildDate>
     <atom:link href="/laumn/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Week 12: Visual Learning Analytics (SIG4)</title>
+      <link>https://colig.github.io/laumn/post/week12/</link>
+      <pubDate>Sun, 17 Nov 2019 00:00:00 -0600</pubDate>
+      
+      <guid>https://colig.github.io/laumn/post/week12/</guid>
+      <description>
+
+&lt;p&gt;During the past few weeks, we have played with several learning analytics tools, including visualization tools such as Gephi and R Studio. These tools helped us answer the question of “what” the data looks like, and this week we will dive into a new area - Visual Analytics (VA), to think about “why” the data looks like this. Through readings and activities, we will get familiar with the concept of VA and reveal its power to understand your data. VA has been used in many fields, such as business analytics, health care, journalism and education. It requires human involvement and has created the communication between the user and the data.&lt;/p&gt;
+
+&lt;h3 id=&#34;1-introductory-video-to-visual-analytics&#34;&gt;📀 1. Introductory video to visual analytics&lt;/h3&gt;
+
+&lt;p&gt;❓ Please watch this short video, which helps you go through the basic concept of visual analytics.&lt;/p&gt;
+
+&lt;p&gt;💭 Think about what is visual analytics, and its relationship with data visualization.&lt;/p&gt;
+
+&lt;p&gt;🔗 &lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=LYKO_6KPZCM&amp;amp;feature=emb_logo&#34; target=&#34;_blank&#34;&gt;What is Visual Analytics?&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/LYKO_6KPZCM&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;2-readings-and-annotation&#34;&gt;📚 2. Readings and annotation&lt;/h3&gt;
+
+&lt;p&gt;🔗 &lt;strong&gt;&lt;a href=&#34;https://drive.google.com/file/d/1XaPCF1_7h1mBnhNariz5jWs2YoD5mUUa/view&#34; title=&#34;Visual Analytics&#34; target=&#34;_blank&#34;&gt;Keim et al. (2010)&lt;/a&gt; (Visual Analytics foundamental concepts and overview.)&lt;/strong&gt;  (Note: To annotate this PDF file, download to your computer and drag it into Chrome. Please do not directly annotate on Google Drive.)&lt;/p&gt;
+
+&lt;p&gt;🔗 &lt;strong&gt;&lt;a href=&#34;https://www-sciencedirect-com.ezp1.lib.umn.edu/science/article/pii/S0360131518300770&#34; title=&#34;Visual learning analytics of educational data: A systematic literature review and research agenda&#34; target=&#34;_blank&#34;&gt;Vieira, Parsons, &amp;amp; Byrd (2018)&lt;/a&gt; (This is a literature review of visual analytics in education. )&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;🔗 &lt;strong&gt;&lt;a href=&#34;https://cdn2.hubspot.net/hubfs/2383378/Tableau%20Whitepaper%20-%20Why%20Visual%20Analytics.pdf?t=1520904633993&#34; target=&#34;_blank&#34;&gt;Why visual analytics?&lt;/a&gt; (Optional reading)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;❓ Please consider the following questions when you annotate the readings on Hypothes.is:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;💭  What are the differences between data visualization and visual analytics?&lt;/li&gt;
+&lt;li&gt;💭  How can visual analytics apply to your WG or professional field, and why is it important?&lt;/li&gt;
+&lt;li&gt;💭  What are the challenges in visual learning analytics?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;3-webinar-on-visual-analytics&#34;&gt;📀 3. Webinar on visual analytics&lt;/h3&gt;
+
+&lt;p&gt;🔗 &lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Bq-b2yc0Tig&amp;amp;feature=youtu.be&#34; target=&#34;_blank&#34;&gt;Introduction to Data Visualization&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/Bq-b2yc0Tig&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Note: This is a video from a workshop about data visualzation and visual analytics. Here is the presenter&amp;rsquo;s &lt;a href=&#34;https://soihub.org/site/assets/files/6656/slides_intoduction_to_data_visualization_vetria_byrd.pdf&#34; target=&#34;_blank&#34;&gt;slides&lt;/a&gt; for the workshop.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;4-activities-explore-visual-analytics-tools-and-tell-a-story-of-your-data&#34;&gt;✔️ 4. Activities - Explore visual analytics tools and tell a story of your data&lt;/h3&gt;
+
+&lt;p&gt;💭 Post your response in Slack #2019-general channel. Think about how to make your story concise and please feel free to reply to peers.&lt;/p&gt;
+
+&lt;p&gt;🔗 &lt;strong&gt;&lt;a href=&#34;https://www.sas.com/en_us/software/visual-analytics/demo/network-performance/sample-report.html&#34; target=&#34;_blank&#34;&gt;SAS&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Explore one of the interactive demos, and explore the tools available in the application to see how the data changes, and how these changes can be used to gain new insight into your data.&lt;/p&gt;
+
+&lt;p&gt;🔗 &lt;strong&gt;&lt;a href=&#34;https://datastudio.google.com/u/0/navigation/reporting&#34; target=&#34;_blank&#34;&gt;Google Data Studio&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Use your own data to create a visualization of your data, and tell a ‘story’ about it on Slack. The story is your explanation of what the data may mean.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;💬 If you have any questions, please Slack us during the week. See you all on November 25. 😊&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/3og0IExSrnfW2kUaaI/giphy.gif&#34; alt=&#34;Visualization&#34; title=&#34;Visualization&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>SIG3: Multimodal Learning Analytics</title>
